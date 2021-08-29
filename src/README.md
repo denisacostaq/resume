@@ -271,7 +271,7 @@ Professional
     control, neural network, fuzzy logic, SCADAs.
 
 Personal
-:   water polo, travel, gym.
+:   water polo, travel, gym, dancing.
 
 
 [last release](https://github.com/denisacostaq/resume/releases/latest)
