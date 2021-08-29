@@ -14,43 +14,37 @@ Education
 ---------
 
 on going
-:   **Independent courses**;
+:   **Certifications**:
 
-    Entity                                         Item                                                                                                  Certificate Id                                                                                 Record
-    --------                                       --------                                                                                              ----------------                                                                             --------
-    SOLOLEARN                                      [C++ Tutorial course](https://www.sololearn.com/learning/1051)                                        [#1051‐1144645](https://www.sololearn.com/Certificate/1051-1144645/jpg/?mode=download)       5/5
-    SOLOLEARN                                      [Java Tutorial course](https://www.sololearn.com/learning/1068)                                       [#1068‐1144645](https://www.sololearn.com/Certificate/1068-1144645/jpg/?mode=download)       5/5
-    Stanford University via Coursera               [Machine Learning](https://www.coursera.org/learn/machine-learning)                                   [#VGAXBK4T2MGV](https://www.coursera.org/account/accomplishments/verify/VGAXBK4T2MGV)        95.7/100
-    deeplearning.ai via Coursera                   [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning)     [#T75SWYJVQ53W](https://www.coursera.org/account/accomplishments/certificate/T75SWYJVQ53W)   100/100
-    Georgia Institute of Technology via Coursera   [Control of Mobile Robots](https://www.coursera.org/learn/mobile-robot)                               [#N5UWBLKW286G](https://www.coursera.org/account/accomplishments/verify/N5UWBLKW286G)        91.4/100
+:   - [C++ Tutorial course](https://www.sololearn.com/Certificate/1051-1144645/jpg/?mode=download)
+- [Java Tutorial course](https://www.sololearn.com/Certificate/1068-1144645/jpg/?mode=download)
+- [Machine Learning](https://www.coursera.org/account/accomplishments/verify/VGAXBK4T2MGV)
+- [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/T75SWYJVQ53W)
+- [Control of Mobile Robots](https://www.coursera.org/account/accomplishments/verify/N5UWBLKW286G)
 
-    Table: Certifications & Acreditations
 
 2009-2016
 :   **BSc, Informatics Science Engineering**; Universidad de las Ciencias Informáticas
     (Havana, Cuba)
-
     *Thesis title: Binary Serialization Mechanism*
 
-    Curese tittle                                            Date       Grade        Credit Hrs
-    ---------------                                        --------   ---------    ------------
-    Basic GNU/Linux                                          Sep 2009    5/5                  16
-    Control Systems Oriented Programming                     Jan 2011    5/5                  36
-    Services Oriented Architecture (SOA)                     Sep 2012    4/5                  24
-    Data Structures and Algorithms                           Sep 2012    5/5                  24
-    TCP/IP and Applications                                  Sep 2012    5/5                  24
-    Configuring Network Interconnection Equipment            Jan 2013    4/5                  20
-    Pattern Recognition (combinational logical approach)     Jan 2015    4/5                  32
-    Artificial Neural Networks                               Sep 2015    5/5                  40
+Additional courses during college
+:   &emsp;&emsp;**Date**&emsp;&emsp;&emsp;&emsp;**Curese tittle**
 
-    Table: Additional courses during college
-
+:   - **(Sep 2009)** &emsp;Basic GNU/Linux
+- **(Jan 2011)** &emsp;Control Systems Oriented Programming
+- **(Sep 2012)** &emsp;Services Oriented Architecture (SOA)
+- **(Sep 2012)** &emsp;Data Structures and Algorithms
+- **(Sep 2012)** &emsp;TCP/IP and Applications
+- **(Jan 2013)** &emsp;Configuring Network Interconnection Equipment
+- **(Jan 2015)** &emsp;Pattern Recognition (combinational logical approach)
+- **(Sep 2015)** &emsp;Artificial Neural Networks
 
 
 Experience
 ----------
 
-**01/2021‐today&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Quivicom, Deutsche Telekom&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Frankfurt, Germany**
+**01/2021‐today&emsp;&emsp;&emsp;Quivicom, Deutsche Telekom&emsp;&emsp;&emsp;&emsp;Frankfurt, Germany**
 
 Short text containing the type of work done, results obtained,
 lessons learned and other remarks. Can also include lists and
@@ -61,27 +55,27 @@ links:
 * Item with [link](http://www.example.com). Links will work both in
   the html and pdf versions.
 
-**10/2018‐11/2020&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Skycoin&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shangai, China**
+**10/2018‐11/2020&emsp;&emsp;Skycoin&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shangai, China**
 
 Versatile software developer, but mainly in embedded systems.
 
-**9/2016‐9/2018&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+**09/2016‐09/2018&emsp;&emsp;Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
 
 Software Developer.
 
-**7/2015‐8/2018&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DebMedia&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Buenos Aires, Argentina**
+**07/2015‐08/2018&emsp;&emsp;DebMedia&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Buenos Aires, Argentina**
 
 Full‐stack web developer.
 
-**3/2014‐7/2015&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Brush Studio&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+**03/2014‐07/2015&emsp;&emsp;Brush Studio&emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
 
 Mobile video game developer.
 
-**9/2010‐6/2016&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+**09/2010‐06/2016&emsp;&emsp;Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
 
 Industrial Computer Center.
 
-**9/2009‐6/2010&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;FILPACON&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+**09/2009‐06/2010&emsp;&emsp;FILPACON&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
 
 1st Work experience.
 
