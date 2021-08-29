@@ -1,13 +1,13 @@
-Johnny Coder
-============
+Alvaro Denis Acosta
+===================
 
-![](Alvaro-photo-chiquita.png){ width=11px; }
+![](Alvaro-photo-chiquita.png){ width=3px; }
 
--------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
+----------------------------          ------------------------------
+@denisacostaq                                     linkedin, github, gmail, skype
+Sr. Software Developer                      BSc, Informatics Science Engineering
+Location                                                         Sofia, Bulgaria
+----------------------------          ------------------------------
 
 
 Education
@@ -16,7 +16,9 @@ Education
 on going
 :   **Certifications**:
 
-:   - [C++ Tutorial course](https://www.sololearn.com/Certificate/1051-1144645/jpg/?mode=download)
+:   - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/64d91478-4864-4310-b6ac-2bbf5a549ce8)
+- [HashiCorp Certified: Terraform Associate](https://www.credly.com/badges/e5eb4ea9-63e7-473b-a2a9-b027aafe72ab)
+- [C++ Tutorial course](https://www.sololearn.com/Certificate/1051-1144645/jpg/?mode=download)
 - [Java Tutorial course](https://www.sololearn.com/Certificate/1068-1144645/jpg/?mode=download)
 - [Machine Learning](https://www.coursera.org/account/accomplishments/verify/VGAXBK4T2MGV)
 - [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/T75SWYJVQ53W)
@@ -25,8 +27,7 @@ on going
 
 2009-2016
 :   **BSc, Informatics Science Engineering**; Universidad de las Ciencias Informáticas
-    (Havana, Cuba)
-    *Thesis title: Binary Serialization Mechanism*
+    (Havana, Cuba). *Thesis title: Binary Serialization Mechanism*
 
 Additional courses during college
 :   &emsp;&emsp;**Date**&emsp;&emsp;&emsp;&emsp;**Curese tittle**
@@ -44,40 +45,134 @@ Additional courses during college
 Experience
 ----------
 
-**01/2021‐today&emsp;&emsp;&emsp;Quivicom, Deutsche Telekom&emsp;&emsp;&emsp;&emsp;Frankfurt, Germany**
+**07/2021‐today**
+:   **Financial Times&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;London, England**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+    Short text containing the type of work done, results obtained,
+    lessons learned and other remarks. Can also include lists and
+    links:
 
-* Main used technologies
+    * Main used technologies
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+    * Item with [link](http://www.example.com). Links will work both in
+      the html and pdf versions.
 
-**10/2018‐11/2020&emsp;&emsp;Skycoin&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shangai, China**
+**01/2021‐06-2021**
+:   **Qivicon, Deutsche Telekom&emsp;&emsp;&emsp;&emsp;&emsp;Frankfurt, Germany**
 
-Versatile software developer, but mainly in embedded systems.
+    Short text containing the type of work done, results obtained,
+    lessons learned and other remarks. Can also include lists and
+    links:
 
-**09/2016‐09/2018&emsp;&emsp;Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+    * Main used technologies
 
-Software Developer.
+    * Item with [link](http://www.example.com). Links will work both in
+      the html and pdf versions.
 
-**07/2015‐08/2018&emsp;&emsp;DebMedia&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Buenos Aires, Argentina**
+**10/2018‐11/2020**
+:   **Skycoin&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shangai, China**
 
-Full‐stack web developer.
+    Versatile software developer, but mainly in embedded systems.
 
-**03/2014‐07/2015&emsp;&emsp;Brush Studio&emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+**09/2016‐09/2018**
+:   **Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
 
-Mobile video game developer.
+    Software Developer.
 
-**09/2010‐06/2016&emsp;&emsp;Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+**07/2015‐08/2018**
+:   **DebMedia&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Buenos Aires, Argentina**
 
-Industrial Computer Center.
+    Full‐stack web developer.
 
-**09/2009‐06/2010&emsp;&emsp;FILPACON&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+**03/2014‐07/2015**
+:   **Brush Studio&emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
 
-1st Work experience.
+    Mobile video game developer.
+
+**09/2010‐06/2016**
+:   **Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+
+    Industrial Computer Center.
+
+**09/2009‐06/2010**
+:   **FILPACON&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba**
+
+    1st Work experience.
+
+
+Skills
+------
+
+Advanced Knowledge
+:   *Programming languages:* **C, C++** (03, 11, 14 with: stl, boost, poco, gtk,
+    qt (4, 5) + **qml & javascript**, gtest (gmock), qwt, cocos2d‐x, box2d,
+    ROS(very basic), OpenGL(very basic), OpenCV(basic)), **go**.
+
+:   *Build concepts:* Advanced compile concepts, including cross platform build,
+     cross architecture build and both.
+:   *Operating System concepts and practice:* **Embedded GNU/Linux, software
+     development on GNU/Linux, Linux IPC** (Pipe, Shared Memory, Message Queues,
+     Semaphores).
+:    *Networks/Protocols:* Application (Modbus, D‐Bus).
+:    *Abilities:* Structured Programming, Object Oriented Programming, Generic
+     Programming, use of metrics for code writing (I prefer to comment the
+     source code using Doxygen style).
+:    *Good practices:* Proactively and constructively makes suggestions for
+     process or product improvement. I am able to work both autonomously and in
+     a collaborative environment.
+
+Intermediate Knowledge
+:   *Programming languages:* **Java** (Desktop, web (Playframework,
+    Spring Boot ‐> RESTful APIs), ORM (Hibernate, Ebeans), Android),
+    **JavaScript** (AngularJS, Vue.js (Vuetify, Vuex)),
+    **TypeScript** (Angular), **sql, bash**.
+:   *Embedded Systems:* FreeRTOS, STM32‐Library, lwIP, libopencm3.
+:    *Networks/Protocols:* Ethernet (TCP/IP, UDP), Serial (RS‐232/485),
+    Application (gRPC).
+:   *Abilities:* Concurrent programming (thread and/or task based concurrency),
+    Template Meta‐programming, Algorithms, Machine Learning, Automated Software
+    Testing (unit/integration tests).
+
+Basic Knowledge
+:   *Programming languages:* **Php** (Symfony), **Python** (django, flask,
+    numpy, pandas, matplotlib), **Ruby, Javascript** (Node.JS, Backbone.JS,
+    JQuery, Mobil (Cordova/Phonegap, Ionic)), **Prolog, Io** (the programming
+    language), **MATLAB**.
+:   *Other languages:* protobuf, json, xml, plist, html5, ccs3 (+stylus),
+    markdown, LaTeX.
+:   *Networks/Protocols:* Application (Mqtt, rpc (+rpcgen), xmlrpc, SOAP),
+    BLE (+Eddystone), CAN.
+:   *Abilities:* Aspect Oriented Programming, Computer Vision, Blockchain.
+
+
+    * These items can also contain lists, but you need to mind the
+      indentation levels in the markdown source.
+    * Second item.
+
+
+Toolbox
+-------
+
+Advanced Knowledge
+:   *Build and development tools:* **CMake** (CPack, CTest, CDash),
+    **GNU autotools** (autoscan, autoheader, autoconf, automake, libtool,
+    autoproject, intltool[gettext]), **BuildRoot, Git**.
+
+Intermediate Knowledge
+:   *DevOps:* GitLab, Jenkins, TravisCI (online usage), Docker (+Docker Compose)
+:   *Build and development tools:* valgrind, strace, gprof, gcov,
+    fakeroot (debian packaging), Android‐SDK/NDK.
+:   *API script and/or bindings for C/C++:* swig, sip, boost::python, jni
+:   *Microcontrollers and hardware tools:* Proteus, CCS (C Compiler of Custom
+    Computer Services Incorporated), AVR Studio.
+:   *Relational databases:* PostgreSQL, MySQL, SQlServer.
+
+Basic Knowledge
+:   *Microcontrollers development tools:* PIC (30F3013), AVR (Atmega8 and
+    Atmega16), ARM (stm3210fx*), openocd, st‐link.
+:   *Build and development tools:* wireshark, svn, cvs, tomcat, gradle, maven,
+    ant, ivy, acr.
+:   *Schemaless databases:* Mongo, Neo4j, Redis, LevelDB.
 
 
 Extra Experience
@@ -166,81 +261,6 @@ Programming Languages
 :   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
 
 [ref]: https://github.com/githubuser/superlongprojectname
-
-
-Skills
-------
-
-Advanced Knowledge
-:   *Programming languages:* **C, C++** (03, 11, 14 with: stl, boost, poco, gtk,
-    qt (4, 5) + **qml & javascript**, gtest (gmock), qwt, cocos2d‐x, box2d,
-    ROS(very basic), OpenGL(very basic), OpenCV(basic)), **go**.
-
-:   *Build concepts:* Advanced compile concepts, including cross platform build,
-     cross architecture build and both.
-:   *Operating System concepts and practice:* **Embedded GNU/Linux, software
-     development on GNU/Linux, Linux IPC** (Pipe, Shared Memory, Message Queues,
-     Semaphores).
-:    *Networks/Protocols:* Application (Modbus, D‐Bus).
-:    *Abilities:* Structured Programming, Object Oriented Programming, Generic
-     Programming, use of metrics for code writing (I prefer to comment the
-     source code using Doxygen style).
-:    *Good practices:* Proactively and constructively makes suggestions for
-     process or product improvement. I am able to work both autonomously and in
-     a collaborative environment.
-
-Intermediate Knowledge
-:   *Programming languages:* **Java** (Desktop, web (Playframework,
-    Spring Boot ‐> RESTful APIs), ORM (Hibernate, Ebeans), Android),
-    **JavaScript** (AngularJS, Vue.js (Vuetify, Vuex)),
-    **TypeScript** (Angular), **sql, bash**.
-:   *Embedded Systems:* FreeRTOS, STM32‐Library, lwIP, libopencm3.
-:    *Networks/Protocols:* Ethernet (TCP/IP, UDP), Serial (RS‐232/485),
-    Application (gRPC).
-:   *Abilities:* Concurrent programming (thread and/or task based concurrency),
-    Template Meta‐programming, Algorithms, Machine Learning, Automated Software
-    Testing (unit/integration tests).
-
-Basic Knowledge
-:   *Programming languages:* **Php** (Symfony), **Python** (django, flask,
-    numpy, pandas, matplotlib), **Ruby, Javascript** (Node.JS, Backbone.JS,
-    JQuery, Mobil (Cordova/Phonegap, Ionic)), **Prolog, Io** (the programming
-    language), **MATLAB**.
-:   *Other languages:* protobuf, json, xml, plist, html5, ccs3 (+stylus),
-    markdown, LaTeX.
-:   *Networks/Protocols:* Application (Mqtt, rpc (+rpcgen), xmlrpc, SOAP),
-    BLE (+Eddystone), CAN.
-:   *Abilities:* Aspect Oriented Programming, Computer Vision, Blockchain.
-
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-
-Toolbox
--------
-
-Advanced Knowledge
-:   *Build and development tools:* **CMake** (CPack, CTest, CDash),
-    **GNU autotools** (autoscan, autoheader, autoconf, automake, libtool,
-    autoproject, intltool[gettext]), **BuildRoot, Git**.
-
-Intermediate Knowledge
-:   *DevOps:* GitLab, Jenkins, TravisCI (online usage), Docker (+Docker Compose)
-:   *Build and development tools:* valgrind, strace, gprof, gcov,
-    fakeroot (debian packaging), Android‐SDK/NDK.
-:   *API script and/or bindings for C/C++:* swig, sip, boost::python, jni
-:   *Microcontrollers and hardware tools:* Proteus, CCS (C Compiler of Custom
-    Computer Services Incorporated), AVR Studio.
-:   *Relational databases:* PostgreSQL, MySQL, SQlServer.
-
-Basic Knowledge
-:   *Microcontrollers development tools:* PIC (30F3013), AVR (Atmega8 and
-    Atmega16), ARM (stm3210fx*), openocd, st‐link.
-:   *Build and development tools:* wireshark, svn, cvs, tomcat, gradle, maven,
-    ant, ivy, acr.
-:   *Schemaless databases:* Mongo, Neo4j, Redis, LevelDB.
 
 
 Interests
