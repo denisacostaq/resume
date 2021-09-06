@@ -1,12 +1,12 @@
 Alvaro Denis Acosta
 ===================
 
-![](Alvaro-photo-chiquita.png){ width=3px; }
+![](Alvaro-photo-chiquita.png){ width=5px; }
 
 ----------------------------          ------------------------------
-@denisacostaq                                     linkedin, github, gmail, skype
-Sr. Software Developer                      BSc, Informatics Science Engineering
-Location                                                         Sofia, Bulgaria
+@denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer&body=Hi Alvaro, we have an oportunity), [skype](https://join.skype.com/invite/srQL37pNwpTi)
+Sr. Software Developer                          BSc, Informatics Science Engineering
+Location                                        Sofia, Bulgaria
 ----------------------------          ------------------------------
 
 
@@ -18,11 +18,11 @@ on going
 
 :   - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/64d91478-4864-4310-b6ac-2bbf5a549ce8)
 - [HashiCorp Certified: Terraform Associate](https://www.credly.com/badges/e5eb4ea9-63e7-473b-a2a9-b027aafe72ab)
-- [C++ Tutorial course](https://www.sololearn.com/Certificate/1051-1144645/jpg/?mode=download)
-- [Java Tutorial course](https://www.sololearn.com/Certificate/1068-1144645/jpg/?mode=download)
+- [C++ Tutorial course](https://www.sololearn.com/Certificate/1051-1144645/jpg)
+- [Java Tutorial course](https://www.sololearn.com/Certificate/1068-1144645/jpg)
 - [Machine Learning](https://www.coursera.org/account/accomplishments/verify/VGAXBK4T2MGV)
-- [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/T75SWYJVQ53W)
 - [Control of Mobile Robots](https://www.coursera.org/account/accomplishments/verify/N5UWBLKW286G)
+- [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/verify/T75SWYJVQ53W)
 
 
 2009-2016
@@ -32,14 +32,14 @@ on going
 Additional courses during college
 :   &emsp;&emsp;**Date**&emsp;&emsp;&emsp;&emsp;**Curese tittle**
 
-:   - **(Sep 2009)** &emsp;Basic GNU/Linux
-- **(Jan 2011)** &emsp;Control Systems Oriented Programming
+:   - **(Sep 2015)** &emsp;Artificial Neural Networks
+- **(Jan 2015)** &emsp;Pattern Recognition (combinational logical approach)
+- **(Jan 2013)** &emsp;Configuring Network Interconnection Equipment
+- **(Sep 2012)** &emsp;TCP/IP and Applications
 - **(Sep 2012)** &emsp;Services Oriented Architecture (SOA)
 - **(Sep 2012)** &emsp;Data Structures and Algorithms
-- **(Sep 2012)** &emsp;TCP/IP and Applications
-- **(Jan 2013)** &emsp;Configuring Network Interconnection Equipment
-- **(Jan 2015)** &emsp;Pattern Recognition (combinational logical approach)
-- **(Sep 2015)** &emsp;Artificial Neural Networks
+- **(Jan 2011)** &emsp;Control Systems Oriented Programming
+- **(Sep 2009)** &emsp;Basic GNU/Linux
 
 
 Experience
@@ -48,56 +48,111 @@ Experience
 **07/2021‐today**
 :   *Financial Times&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;London, England*
 
-    Short text containing the type of work done, results obtained,
-    lessons learned and other remarks. Can also include lists and
-    links:
+    The Financial Times is a daily newspaper printed in broadsheet and published
+    digitally that focuses on business and economic current affairs.
 
-    * Main used technologies
+    * Contract Type: Sr. Software Developer services through Musala Soft.
 
-    * Item with [link](http://www.example.com). Links will work both in
-      the html and pdf versions.
+    * Role: Software Developer, but mainly in embedded systems.
+
+    * Main used technologies: Java, Golang, Circle CI, Kafka, Elasticsearch,
+    Kubernetes, Microservices, Github, Jira.
 
 **01/2021‐06-2021**
 :   *Qivicon, Deutsche Telekom&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Frankfurt, Germany*
 
-    Short text containing the type of work done, results obtained,
-    lessons learned and other remarks. Can also include lists and
-    links:
+    Qivicon is an alliance of companies from different industries that was
+    founded in 2011 by Deutsche Telekom. The companies are collaborating on a
+    cross-vendor, wireless-based home automation solution that has been
+    available in the German market since fall 2013. It includes products in the
+    areas of energy, security, and comfort.
 
-    * Main used technologies
+    * Contract Type: Sr. Software Developer services through Musala Soft.
 
-    * Item with [link](http://www.example.com). Links will work both in
-      the html and pdf versions.
+    * Role: Software Developer, but mainly in embedded systems.
+
+    * Main used technologies: Java, OSGI, GitLab.
+
+**12/2020‐today**
+:   *Musala Soft&emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sofia, Bulgaria*
+
+    Musala Soft is a software services company specialized in complex
+    geographically distributed enterprise projects. We believe in excellence and
+    growth inspired by partnership, personal success and team spirit.
+
+    * Contract Type: Full-time.
+
+    * Role: Sr. Software Developer.
+
+    * Main used technologies: Java, Golang, Circle CI, Kafka, Elasticsearch,
+    Kubernetes, Microservices, Github, Jira, GitLab.
 
 **10/2018‐11/2020**
 :   *Skycoin&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shangai, China*
 
-    Versatile software developer, but mainly in embedded systems.
+    A blockchain platform empowering independent blockchain solutions, applying
+    blockchain enabled programming languages for virtual assets and implementing
+    the foundations of a decentralized web. Bandwidth backed, incentivized and
+    environmentally friendly. Skycoin will fuel the new internet.
 
-**09/2016‐09/2018**
-:   *Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
+    * Contract Type: Full-time.
 
-    Software Developer.
+    * Role: Software Developer, but mainly in embedded systems.
 
-**07/2015‐08/2018**
+    * Main used technologies: Golang, C, Javascript, LibOpenCM3, Protobuf,
+    TravisCI.
+
+**07/2015‐10/2019**
 :   *DebMedia&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Buenos Aires, Argentina*
 
-    Full‐stack web developer.
+    Debmedia has a B2B software solution for enterprises to manage Customer
+    Experience in the brick and mortar, focusing on optimizing queues and waits
+    , personalizing every touchpoint and providing actionable branch metrics.
+
+    * Contract Type: Part-time.
+
+    * Role: Full-stack web developer.
+
+    * Main used technologies: Java, Playframework, AngularJS, MySQL, PostgreSQL,
+    GitLab, Jenkins.
 
 **03/2014‐07/2015**
 :   *Brush Studio&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
 
-    Mobile video game developer.
+    Mobile entertainment platform company, mobile game development and publishing.
 
-**09/2010‐06/2016**
+    * Contract Type: Part-time.
+
+    * Role: Mobile video game developer.
+
+    * Main used technologies: C++, cocos2d-x, Make, GitHub.
+
+**09/2010‐09/2018**
 :   *Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
 
-    Industrial Computer Center.
+    The Industrial Computing Center develops products and computer services of
+    industrial automation, with a high added value, that also meet the needs and
+    expectations of customers, enhancing specialized training and research.
+
+    * Contract Type: Full-time.
+
+    * Role: Embedded Systems Software Developer, SCADA Software Developer.
+
+    * Main used technologies: C, C++, Qt, QML, CMake, Autotools, GitLab, AVR,
+    ARM, STM32, Java, Sprin, PostgreSQL.
 
 **09/2009‐06/2010**
 :   *FILPACON&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
 
-    1st Work experience.
+    Filtering System for Internet, allow it to adequate to changeable
+    environments. This project help to contribute to a safer Internet for those
+    sectors of society most vulnerable to inappropriate content.
+
+    * Contract Type: Intership.
+
+    * Role: Junior Software Developer, first work experience.
+
+    * Main used technologies: Java, SVN, Netbeans.
 
 
 Skills
@@ -243,7 +298,7 @@ Personal projects
     *[Todo list](https://github.com/denisacostaq/todolist-go)* is a basic demo
     to demostrate how to use the golang
     [revel](https://revel.github.io/manual/index.html) framework for creating a
-    RESTFull fullstack web application using AngularJS for the frontend and gorm
+    RESTFull full-stack web application using AngularJS for the frontend and gorm
     as ORM library.
 
     *[clang-format-binary-releases](https://github.com/denisacostaq/clang-format-binary-releases)*
