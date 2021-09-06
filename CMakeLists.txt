@@ -29,8 +29,7 @@ add_custom_target(pdf ALL
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/www)
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/Alvaro-photo-chiquita.png DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/www)
 add_custom_target(html
-    COMMAND 
-    COMMAND ${PANDOC_EXE} --standalone --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src --include-in-header ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css --from markdown --to html --output ${CMAKE_CURRENT_BINARY_DIR}/www/index.html ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md
+    COMMAND ${PANDOC_EXE} --metadata title-prefix="CV" --standalone --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src --include-in-header ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css --from markdown --to html --output ${CMAKE_CURRENT_BINARY_DIR}/www/index.html ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md
     DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
     COMMENT "Generating html file"

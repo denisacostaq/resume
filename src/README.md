@@ -4,7 +4,7 @@ Alvaro Denis Acosta
 ![](Alvaro-photo-chiquita.png){ width=5px; }
 
 ----------------------------          ------------------------------
-@denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer&body=Hi Alvaro, we have an oportunity), [skype](https://join.skype.com/invite/srQL37pNwpTi)
+@denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer&body=Hi Alvaro, we have an open oportunity), [skype](https://join.skype.com/invite/srQL37pNwpTi)
 Sr. Software Developer                          BSc, Informatics Science Engineering
 Location                                        Sofia, Bulgaria
 ----------------------------          ------------------------------
@@ -16,30 +16,32 @@ Education
 on going
 :   **Certifications**:
 
-:   - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/64d91478-4864-4310-b6ac-2bbf5a549ce8)
-- [HashiCorp Certified: Terraform Associate](https://www.credly.com/badges/e5eb4ea9-63e7-473b-a2a9-b027aafe72ab)
-- [C++ Tutorial course](https://www.sololearn.com/Certificate/1051-1144645/jpg)
-- [Java Tutorial course](https://www.sololearn.com/Certificate/1068-1144645/jpg)
-- [Machine Learning](https://www.coursera.org/account/accomplishments/verify/VGAXBK4T2MGV)
-- [Control of Mobile Robots](https://www.coursera.org/account/accomplishments/verify/N5UWBLKW286G)
-- [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/verify/T75SWYJVQ53W)
+:   - [CKAD: Certified Kubernetes Application Developer.](https://www.credly.com/badges/64d91478-4864-4310-b6ac-2bbf5a549ce8)
+- [HashiCorp Certified: Terraform Associate.](https://www.credly.com/badges/e5eb4ea9-63e7-473b-a2a9-b027aafe72ab)
+- [AWS Fundamentals: Going Cloud-Native.](https://coursera.org/share/10f564163b0104fd0db91991e652fa40)
+- [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization.](https://coursera.org/share/35e572da94401374f2acd45c9a9a245e)
+- [C++ Tutorial course.](https://www.sololearn.com/Certificate/1051-1144645/jpg)
+- [Java Tutorial course.](https://www.sololearn.com/Certificate/1068-1144645/jpg)
+- [Machine Learning.](https://www.coursera.org/account/accomplishments/verify/VGAXBK4T2MGV)
+- [Control of Mobile Robots.](https://www.coursera.org/account/accomplishments/verify/N5UWBLKW286G)
+- [Neural Networks and Deep Learning.](https://www.coursera.org/account/accomplishments/verify/T75SWYJVQ53W)
 
 
 2009-2016
 :   **BSc, Informatics Science Engineering**; Universidad de las Ciencias Informáticas
-    (Havana, Cuba). *Thesis title: Binary Serialization Mechanism*
+    (Havana, Cuba). *Thesis title: Binary Serialization Mechanism*.
 
 Additional courses during college
 :   &emsp;&emsp;**Date**&emsp;&emsp;&emsp;&emsp;**Curese tittle**
 
-:   - **(Sep 2015)** &emsp;Artificial Neural Networks
-- **(Jan 2015)** &emsp;Pattern Recognition (combinational logical approach)
-- **(Jan 2013)** &emsp;Configuring Network Interconnection Equipment
-- **(Sep 2012)** &emsp;TCP/IP and Applications
-- **(Sep 2012)** &emsp;Services Oriented Architecture (SOA)
-- **(Sep 2012)** &emsp;Data Structures and Algorithms
-- **(Jan 2011)** &emsp;Control Systems Oriented Programming
-- **(Sep 2009)** &emsp;Basic GNU/Linux
+:   - **(Sep 2015)** &emsp;Artificial Neural Networks.
+- **(Jan 2015)** &emsp;Pattern Recognition (combinational logical approach).
+- **(Jan 2013)** &emsp;Configuring Network Interconnection Equipment.
+- **(Sep 2012)** &emsp;TCP/IP and Applications.
+- **(Sep 2012)** &emsp;Services Oriented Architecture (SOA).
+- **(Sep 2012)** &emsp;Data Structures and Algorithms.
+- **(Jan 2011)** &emsp;Control Systems Oriented Programming.
+- **(Sep 2009)** &emsp;Basic GNU/Linux.
 
 
 Experience
@@ -48,15 +50,17 @@ Experience
 **07/2021‐today**
 :   *Financial Times&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;London, England*
 
-    The Financial Times is a daily newspaper printed in broadsheet and published
-    digitally that focuses on business and economic current affairs.
+    The Financial Times is one of the world’s leading business news
+    organisations, recognised internationally for its authority, integrity and
+    accuracy. The FT has a record paying readership of one million,
+    three-quarters of which are digital subscriptions. It is part of Nikkei Inc.,
+    which provides a broad range of information, news and services for the
+    global business community.
 
-    * Contract Type: Sr. Software Developer services through Musala Soft.
-
-    * Role: Software Developer, but mainly in embedded systems.
-
-    * Main used technologies: Java, Golang, Circle CI, Kafka, Elasticsearch,
-    Kubernetes, Microservices, Github, Jira.
+    * Contract Type: Contract for services through Musala Soft.
+    * Role: Sr. Software Developer.
+    * Main used technologies: Java, Golang, Kafka, Elasticsearch, Kubernetes,
+    Microservices.
 
 **01/2021‐06-2021**
 :   *Qivicon, Deutsche Telekom&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Frankfurt, Germany*
@@ -67,10 +71,8 @@ Experience
     available in the German market since fall 2013. It includes products in the
     areas of energy, security, and comfort.
 
-    * Contract Type: Sr. Software Developer services through Musala Soft.
-
-    * Role: Software Developer, but mainly in embedded systems.
-
+    * Contract Type: Contract for services through Musala Soft.
+    * Role: Sr. Software Developer.
     * Main used technologies: Java, OSGI, GitLab.
 
 **12/2020‐today**
@@ -81,11 +83,9 @@ Experience
     growth inspired by partnership, personal success and team spirit.
 
     * Contract Type: Full-time.
-
     * Role: Sr. Software Developer.
-
-    * Main used technologies: Java, Golang, Circle CI, Kafka, Elasticsearch,
-    Kubernetes, Microservices, Github, Jira, GitLab.
+    * Main used technologies: Java, Golang, Kafka, Elasticsearch, Kubernetes,
+    Microservices.
 
 **10/2018‐11/2020**
 :   *Skycoin&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shangai, China*
@@ -96,11 +96,8 @@ Experience
     environmentally friendly. Skycoin will fuel the new internet.
 
     * Contract Type: Full-time.
-
-    * Role: Software Developer, but mainly in embedded systems.
-
-    * Main used technologies: Golang, C, Javascript, LibOpenCM3, Protobuf,
-    TravisCI.
+    * Role: Versatile Software Developer, but mainly in Embedded Systems.
+    * Main used technologies: Golang, C, Javascript, LibOpenCM3, Protobuf.
 
 **07/2015‐10/2019**
 :   *DebMedia&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Buenos Aires, Argentina*
@@ -110,22 +107,17 @@ Experience
     , personalizing every touchpoint and providing actionable branch metrics.
 
     * Contract Type: Part-time.
-
-    * Role: Full-stack web developer.
-
-    * Main used technologies: Java, Playframework, AngularJS, MySQL, PostgreSQL,
-    GitLab, Jenkins.
+    * Role: Full-stack Web Developer.
+    * Main used technologies: Java, Playframework, AngularJS, MySQL, SQLServer.
 
 **03/2014‐07/2015**
 :   *Brush Studio&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
 
     Mobile entertainment platform company, mobile game development and publishing.
 
-    * Contract Type: Part-time.
-
-    * Role: Mobile video game developer.
-
-    * Main used technologies: C++, cocos2d-x, Make, GitHub.
+    * Contract Type: Entrepreneurship.
+    * Role: Mobile Video Game Developer.
+    * Main used technologies: C++, cocos2d-x, Make.
 
 **09/2010‐09/2018**
 :   *Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
@@ -135,11 +127,9 @@ Experience
     expectations of customers, enhancing specialized training and research.
 
     * Contract Type: Full-time.
-
     * Role: Embedded Systems Software Developer, SCADA Software Developer.
-
-    * Main used technologies: C, C++, Qt, QML, CMake, Autotools, GitLab, AVR,
-    ARM, STM32, Java, Sprin, PostgreSQL.
+    * Main used technologies: C, C++, Qt, QML, CMake, Autotools, AVR, ARM,
+    STM32, Java, Sprin, PostgreSQL.
 
 **09/2009‐06/2010**
 :   *FILPACON&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
@@ -149,9 +139,7 @@ Experience
     sectors of society most vulnerable to inappropriate content.
 
     * Contract Type: Intership.
-
     * Role: Junior Software Developer, first work experience.
-
     * Main used technologies: Java, SVN, Netbeans.
 
 
@@ -162,8 +150,8 @@ Advanced Knowledge
 :   *Programming languages:*
 
     **C**, **C++** (03, 11, 14 with: stl, boost, poco, gtk, qt (4, 5) + **qml**,
-    gtest (gmock), qwt, cocos2d‐x, box2d, ROS(very basic), OpenGL(very basic),
-    OpenCV(basic)), **go**.
+    gtest (gmock), qwt, cocos2d‐x, box2d, ROS (very basic), OpenGL (very basic),
+    OpenCV (basic)), **Go**.
 
 :   *Build concepts:*
 
@@ -182,7 +170,7 @@ Advanced Knowledge
 :    *Abilities:*
 
      Structured Programming, Object Oriented Programming, Generic Programming,
-     use of metrics for code writing (I prefer to comment the source code using
+     use of metrics for code writing (I prefer document the source code using
      Doxygen style).
 
 :    *Good practices:*
@@ -194,13 +182,13 @@ Advanced Knowledge
 Intermediate Knowledge
 :   *Programming languages:*
 
-    **Java** (Desktop, web (Playframework, Spring Boot ‐> RESTful APIs, OpenHab),
+    **Java** (Desktop, web (Playframework, Spring ‐> RESTful APIs, OpenHab),
     ORM (Hibernate, Ebeans), Android), **JavaScript** (AngularJS, Vue.js (Vuetify,
-    Vuex)), **TypeScript** (Angular), **sql, bash**.
+    Vuex)), **TypeScript** (Angular), **SQL**, **Bash**.
 
 :   *Embedded Systems:* 
 
-    FreeRTOS, STM32‐Library, lwIP, libopencm3.
+    FreeRTOS, STM32‐Library, lwIP, LibOpenCM3.
 
 :   *Networks/Protocols:*
 
@@ -215,9 +203,10 @@ Intermediate Knowledge
 Basic Knowledge
 :   *Programming languages:*
 
-    **Php** (Symfony), **Python** (django, flask, numpy, pandas, matplotlib),
-    **Ruby, Javascript** (Node.JS, Backbone.JS, JQuery, Mobil (Cordova/Phonegap,
-    Ionic)), **Prolog, Io** (the programming language), **MATLAB**.
+    **Php** (Symfony), **Python** (Django, Flask, Numpy, Pandas, Matplotlib,
+    Keras/TensorFlow), **Ruby, Javascript** (Node.js, Backbone.js, jQuery, Mobil
+    (Cordova/Phonegap, Ionic)), **Prolog**, **Io** (the programming language),
+    **MATLAB**.
 
 :   *Other languages:*
 
@@ -230,10 +219,6 @@ Basic Knowledge
 :   *Abilities:*
 
     Aspect Oriented Programming, Computer Vision, Blockchain.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
 
 
 Toolbox
@@ -253,8 +238,9 @@ Intermediate Knowledge
 
 :   *Microservices/DevOps:*
 
-    Kafka, Elasticsearch, Terraform, Kubernetes, GitLab, Jenkins, TravisCI
-    (online usage), Docker (+Docker Compose).
+    Kafka, Elasticsearch, Terraform, Kubernetes, AWS (basic), GitLab, Jenkins,
+    TravisCI, GitHub Actions (actions), CircleCI (basic), Docker (+Docker
+    Compose).
 
 :   *API script and/or bindings for C/C++:*
 
@@ -305,10 +291,6 @@ Personal projects
     is a ready to use binary executable for GNU/Linux and MacOS operatin systems
     of the [Clang Format](https://clang.llvm.org/docs/ClangFormat.html) project.
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
     *[stm3210fx3](https://github.com/denisacostaq/firmware-stm3210fx3)* an
     autotools based template to work with stm3210fx3 microcontrollers using the
     STM32F10x_StdPeriph and Free-RTOS libraries.
@@ -318,13 +300,10 @@ Personal projects
 
 
 Open Source
-:   *[Embedded IDE](http://martinribelotta.github.io/embedded-ide)* project on
-    github, this IDE, is mainly used for programming the
+:   *[Embedded IDE](http://martinribelotta.github.io/embedded-ide)* is a 
+    Makefile based integrated development environment primary think for bare
+    processor development. This IDE, can be used for programming the
     [CIAA platform](http://www.proyecto-ciaa.com.ar/index_quees_en.html).
-
-    * Makefile based, C/C++ IDE
-    * Makefile based, C/C++ IDE
-    * [aa](https://github.com/martinribelotta/embedded-ide/)
 
     *[Qt CLI installer](https://github.com/denisacostaq/qli-installer)* is a
     simple script replacing the official online-only graphical Qt installer.
@@ -349,28 +328,6 @@ Open Source
     for validating the cryptographyc API.
 
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-
 Interests
 ---------
 
@@ -382,6 +339,9 @@ Personal
 :   water polo, travel, gym, dancing.
 
 
-[last release](https://github.com/denisacostaq/resume/releases/latest)
+Last version
+------------
 
-[onlie version](https://denisacostaq.github.io/resume)
+----------------------------                                   ------------------------------
+[onlie version](https://denisacostaq.github.io/resume)              [other formats](https://github.com/denisacostaq/resume/releases/latest)
+----------------------------                                   ------------------------------
