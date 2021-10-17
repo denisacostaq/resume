@@ -20,11 +20,11 @@ on going
 - [HashiCorp Certified: Terraform Associate.](https://www.credly.com/badges/e5eb4ea9-63e7-473b-a2a9-b027aafe72ab)
 - [AWS Fundamentals: Going Cloud-Native.](https://coursera.org/share/10f564163b0104fd0db91991e652fa40)
 - [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization.](https://coursera.org/share/35e572da94401374f2acd45c9a9a245e)
+- [Neural Networks and Deep Learning.](https://coursera.org/share/e1073a6fb55aa8646710e46434a961fa)
 - [C++ Tutorial course.](https://www.sololearn.com/Certificate/1051-1144645/jpg)
 - [Java Tutorial course.](https://www.sololearn.com/Certificate/1068-1144645/jpg)
-- [Machine Learning.](https://www.coursera.org/account/accomplishments/verify/VGAXBK4T2MGV)
-- [Control of Mobile Robots.](https://www.coursera.org/account/accomplishments/verify/N5UWBLKW286G)
-- [Neural Networks and Deep Learning.](https://www.coursera.org/account/accomplishments/verify/T75SWYJVQ53W)
+- [Control of Mobile Robots.](https://coursera.org/share/835e837e5b947faf6b302fb66e1b919e)
+- [Machine Learning.](https://coursera.org/share/8946146c01502c365e6919c5e69c06e4)
 
 
 2009-2016
@@ -35,7 +35,7 @@ Additional courses during college
 :   &emsp;&emsp;**Date**&emsp;&emsp;&emsp;&emsp;**Curese tittle**
 
 :   - **(Sep 2015)** &emsp;Artificial Neural Networks.
-- **(Jan 2015)** &emsp;Pattern Recognition (combinational logical approach).
+- **(Jan 2015)** &emsp;Pattern Recognition (combinatorial logical approach).
 - **(Jan 2013)** &emsp;Configuring Network Interconnection Equipment.
 - **(Sep 2012)** &emsp;TCP/IP and Applications.
 - **(Sep 2012)** &emsp;Services Oriented Architecture (SOA).
@@ -106,7 +106,7 @@ Experience
     Experience in the brick and mortar, focusing on optimizing queues and waits
     , personalizing every touchpoint and providing actionable branch metrics.
 
-    * Contract Type: Part-time.
+    * Contract Type: Contract.
     * Role: Full-stack Web Developer.
     * Main used technologies: Java, Playframework, AngularJS, MySQL, SQLServer.
 
@@ -129,7 +129,7 @@ Experience
     * Contract Type: Full-time.
     * Role: Embedded Systems Software Developer, SCADA Software Developer.
     * Main used technologies: C, C++, Qt, QML, CMake, Autotools, AVR, ARM,
-    STM32, Java, Sprin, PostgreSQL.
+    STM32, Java, Spring, PostgreSQL.
 
 **09/2009‐06/2010**
 :   *FILPACON&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
@@ -138,7 +138,7 @@ Experience
     environments. This project help to contribute to a safer Internet for those
     sectors of society most vulnerable to inappropriate content.
 
-    * Contract Type: Intership.
+    * Contract Type: Internship.
     * Role: Junior Software Developer, first work experience.
     * Main used technologies: Java, SVN, Netbeans.
 
@@ -239,7 +239,7 @@ Intermediate Knowledge
 :   *Microservices/DevOps:*
 
     Kafka, Elasticsearch, Terraform, Kubernetes, AWS (basic), GitLab, Jenkins,
-    TravisCI, GitHub Actions (actions), CircleCI (basic), Docker (+Docker
+    TravisCI, GitHub Actions, CircleCI (basic), Docker (+Docker
     Compose).
 
 :   *API script and/or bindings for C/C++:*
@@ -253,7 +253,7 @@ Intermediate Knowledge
 
 :   *Relational databases:*
 
-    PostgreSQL, MySQL, SQlServer.
+    PostgreSQL, MySQL, SQlServer, SQLite3.
 
 Basic Knowledge
 :   *Build and development tools:*
@@ -343,5 +343,5 @@ Last version
 ------------
 
 ----------------------------                                   ------------------------------
-[onlie version](https://denisacostaq.github.io/resume)              [other formats](https://github.com/denisacostaq/resume/releases/latest)
+[online version](https://denisacostaq.github.io/resume)              [other formats](https://github.com/denisacostaq/resume/releases/latest)
 ----------------------------                                   ------------------------------
