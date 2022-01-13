@@ -32,7 +32,7 @@ on going
     (Havana, Cuba). *Thesis title: Binary Serialization Mechanism*.
 
 Additional courses during college
-:   &emsp;&emsp;**Date**&emsp;&emsp;&emsp;&emsp;**Curese tittle**
+:   &emsp;&emsp;**Date**&emsp;&emsp;&emsp;&emsp;**Course tittle**
 
 :   - **(Sep 2015)** &emsp;Artificial Neural Networks.
 - **(Jan 2015)** &emsp;Pattern Recognition (combinatorial logical approach).
@@ -274,15 +274,15 @@ Extra Experience
 
 Personal projects
 :   *[DAQs (Data Acquisition System)](https://github.com/denisacostaq/DAQs)* is
-    a basic proff of concept project for avaluating the posibility to create
+    a basic proof of concept project for evaluating the possibility to create
     portable (Desktop + Android) applications by using Qt technologies. From
     this project you can learn how to use some cool stuff like, travis CI
-    pipelines, croscompiling C++/Qt projects to Android/ARM based mobiles,
+    pipelines, cross-compiling C++/Qt projects to Android/ARM based mobiles,
     github badges, code coverage report, documentation generation using Doxygen
     and so on.
 
     *[Todo list](https://github.com/denisacostaq/todolist-go)* is a basic demo
-    to demostrate how to use the golang
+    to demonstrate how to use the golang
     [revel](https://revel.github.io/manual/index.html) framework for creating a
     RESTFull full-stack web application using AngularJS for the frontend and gorm
     as ORM library.
@@ -323,8 +323,8 @@ Open Source
     *[hardware-wallet](https://github.com/skycoin/hardware-wallet/commits?author=stdevAlDen)*
     is a physical hardware wallet for signing skycoin transactions and messages,
     it have a client library ([hardware-wallet-go](https://github.com/skycoin/hardware-wallet-go/commits?author=stdevAlDen))
-    for device comunication making use of protocol buffer ([hardware-wallet-protob](https://github.com/skycoin/hardware-wallet-protob/commits?author=stdevAlDen))
-    messages. Adiatianally there is a tool ([Random Number Generator (RNG) tests](https://github.com/denisacostaq/rng-test/commits/feature/update_after_libopencm3_changes))
+    for device communication making use of protocol buffer ([hardware-wallet-protob](https://github.com/skycoin/hardware-wallet-protob/commits?author=stdevAlDen))
+    messages. Additionally there is a tool ([Random Number Generator (RNG) tests](https://github.com/denisacostaq/rng-test/commits/feature/update_after_libopencm3_changes))
     for validating the cryptographyc API.
 
 
