@@ -47,10 +47,19 @@ Additional courses during college
 Experience
 ----------
 
-**07/2021‐today**
+**06/2022‐today**
+:   *FLATEX=DEGIRO&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sofia, Bulgaria*
+
+     **flatex DEGIRO** Bank Dutch Branch, trading under the name DEGIRO, is the Dutch branch of flatexDEGIRO Bank AG. flatexDEGIRO Bank AG is primarily supervised by the German Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin). In the Netherlands, flatex DEGIRO Bank Dutch Branch is subject to integrity supervision by DNB and conduct supervision by the AFM.
+
+    * Contract Type: Full Time
+    * Role: Sr. Software Developer.
+    * Main used technologies: C++, MySQL, Python, Microservices.
+
+**07/2021‐05/2022**
 :   *Financial Times&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;London, England*
 
-    The Financial Times is one of the world’s leading business news
+    **The Financial Times** is one of the world’s leading business news
     organisations, recognised internationally for its authority, integrity and
     accuracy. The FT has a record paying readership of one million,
     three-quarters of which are digital subscriptions. It is part of Nikkei Inc.,
@@ -65,7 +74,7 @@ Experience
 **01/2021‐06-2021**
 :   *Qivicon, Deutsche Telekom&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Frankfurt, Germany*
 
-    Qivicon is an alliance of companies from different industries that was
+    **Qivicon** is an alliance of companies from different industries that was
     founded in 2011 by Deutsche Telekom. The companies are collaborating on a
     cross-vendor, wireless-based home automation solution that has been
     available in the German market since fall 2013. It includes products in the
@@ -78,7 +87,7 @@ Experience
 **12/2020‐today**
 :   *Musala Soft&emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sofia, Bulgaria*
 
-    Musala Soft is a software services company specialized in complex
+    **Musala Soft** is a software services company specialized in complex
     geographically distributed enterprise projects. We believe in excellence and
     growth inspired by partnership, personal success and team spirit.
 
@@ -102,7 +111,7 @@ Experience
 **07/2015‐10/2019**
 :   *DebMedia&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Buenos Aires, Argentina*
 
-    Debmedia has a B2B software solution for enterprises to manage Customer
+    **Debmedia** has a B2B software solution for enterprises to manage Customer
     Experience in the brick and mortar, focusing on optimizing queues and waits
     , personalizing every touchpoint and providing actionable branch metrics.
 
@@ -122,7 +131,7 @@ Experience
 **09/2010‐09/2018**
 :   *Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
 
-    The Industrial Computing Center develops products and computer services of
+    **The Industrial Computing Center** develops products and computer services of
     industrial automation, with a high added value, that also meet the needs and
     expectations of customers, enhancing specialized training and research.
 
