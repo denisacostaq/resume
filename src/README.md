@@ -1,6 +1,3 @@
-Alvaro Denis Acosta
-===================
-
 ![](Alvaro-photo-chiquita.png){ width=5px; }
 
 ----------------------------          ------------------------------
