@@ -7,7 +7,7 @@ if(NOT PANDOC_EXE)
 endif()
 find_program(MTXRUN_EXE mtxrun)
 if(NOT MTXRUN_EXE)
-    message(FATAL_ERROR "ConTeXt TDS Runner Tool not found (https://wiki.contextgarden.net/Installation)")
+    message(FATAL_ERROR "ConTeXt TDS Runner Tool not found (https://wiki.contextgarden.net/Installation) --> apt install context")
 endif()
 #By default, ConTeXt searches an image in the current directory, the parent directory, and the grand-parent directory.
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/Alvaro-photo-chiquita.png DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
