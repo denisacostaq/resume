@@ -24,10 +24,13 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Install packages
-        run: sudo apt-get -y install pandoc context
+        run: |
+          sudo apt clean
+          sudo apt update
+          sudo apt install -y pandoc context
 #        working-directory: ${{env.working-directory}}
 
       # Configure the project to build
@@ -46,7 +49,7 @@ jobs:
         run: make pdf doc txt html
 
       - name: Cache
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v3.3.2
         with:
           # A list of files, directories, and wildcard patterns to cache and restore
           path: build
@@ -60,10 +63,10 @@ jobs:
       working-directory: .
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
     
       - name: Cache
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v3.3.2
         with:
           # A list of files, directories, and wildcard patterns to cache and restore
           path: build
@@ -72,7 +75,7 @@ jobs:
 
       - name: Extract tag name
         id: get_version
-        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+        run: echo "VERSION=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_OUTPUT
 
       - name: Create Draft Release
         id: create_release
