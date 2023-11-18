@@ -83,7 +83,7 @@ Experience
     * Role: Sr. Software Developer.
     * Main used technologies: Java, OSGI, GitLab.
 
-**12/2020‐today**
+**12/2020‐05/2022**
 :   *Musala Soft&emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sofia, Bulgaria*
 
     **Musala Soft** is a software services company specialized in complex
@@ -248,7 +248,7 @@ Intermediate Knowledge
 
     Kafka, Elasticsearch, Terraform, Kubernetes, AWS (basic), GitLab, Jenkins,
     TravisCI, GitHub Actions, CircleCI (basic), Docker (+Docker
-    Compose).
+    Compose), Ansible.
 
 :   *API script and/or bindings for C/C++:*
 
