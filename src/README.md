@@ -52,7 +52,19 @@ Additional courses during college
 Experience
 ----------
 
-**06/2022‐today**
+**01/2024‐today**
+:   *Pollard Digital Solutions&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Winnipeg, Canada*
+
+    **Pollard Digital Solutions**, is the digital innovation arm of Pollard Banknote, a global leader
+    in lottery products and services. PDS develops and supports comprehensive digital solutions,
+    including iLottery platforms, eInstant games, and player engagement tools, empowering lotteries
+    worldwide with cutting-edge technology.
+
+    * Contract Type: Contract for services through Roller Gaming.
+    * Role: Sr. Software Developer.
+    * Main used technologies: Java, Helm, K8s, CI (Bamboo, Github Actions), Camunda, Microservices.
+
+**06/2022‐01/2024**
 :   *FLATEX=DEGIRO&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Amsterdam, Netherlands*
 
     **Bank Dutch Branch**, trading under the name DEGIRO, is the Dutch branch of flatexDEGIRO Bank AG. flatexDEGIRO Bank AG is primarily supervised by the German Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin). In the Netherlands, flatex DEGIRO Bank Dutch Branch is subject to integrity supervision by DNB and conduct supervision by the AFM.
