@@ -77,7 +77,7 @@ Experience
 :   *Financial Times&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;London, England*
 
     **The Financial Times** is one of the world’s leading business news
-    organisations, recognised internationally for its authority, integrity and
+    organizations, recognised internationally for its authority, integrity and
     accuracy. The FT has a record paying readership of one million,
     three-quarters of which are digital subscriptions. It is part of Nikkei Inc.,
     which provides a broad range of information, news and services for the
