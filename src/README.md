@@ -260,7 +260,7 @@ Advanced Knowledge
 Intermediate Knowledge
 :   *Build and development tools:*
 
-    valgrind, strace, gprof, gcov, fakeroot (debian packaging), Android‐SDK/NDK.
+    gradle, valgrind, strace, gprof, gcov, fakeroot (debian packaging), Android‐SDK/NDK.
 
 :   *Microservices/DevOps:*
 
@@ -288,7 +288,7 @@ Intermediate Knowledge
 Basic Knowledge
 :   *Build and development tools:*
 
-    wireshark, svn, cvs, tomcat, gradle, maven, ant, ivy, acr.
+    wireshark, svn, cvs, tomcat, maven, ant, ivy, acr.
 
 :   *Microcontrollers development tools:*
 
