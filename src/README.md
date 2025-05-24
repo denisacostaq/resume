@@ -281,6 +281,10 @@ Intermediate Knowledge
 
     PostgreSQL, MySQL, SQlServer, SQLite3.
 
+:   *Schemaless databases:*
+
+    Mongo, Redis.
+
 Basic Knowledge
 :   *Build and development tools:*
 
@@ -292,7 +296,7 @@ Basic Knowledge
 
 :   *Schemaless databases:*
 
-    Mongo, Neo4j, Redis, LevelDB.
+    Neo4j, LevelDB.
 
 
 Extra Experience
