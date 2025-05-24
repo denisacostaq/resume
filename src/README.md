@@ -1,4 +1,4 @@
-![](Alvaro-photo-chiquita.png){ width=5px; }
+![](photo_2025-05-24_17-43-42.jpg){ width=5px; }
 
 ----------------------------          ------------------------------
 @denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer, Sr. Software Developer&body=Hi Alvaro, we have an open opportunity)
