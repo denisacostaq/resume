@@ -177,7 +177,8 @@ Advanced Knowledge
 
     **C**, **C++** (03, 11, 14 with: stl, boost, poco, gtk, qt (4, 5) + **qml**,
     gtest (gmock), qwt, cocos2d‐x, box2d, ROS (very basic), OpenGL (very basic),
-    OpenCV (basic)), **Go**.
+    OpenCV (basic)), **Go**, **Java** (Desktop, web (Playframework, Spring ‐> RESTful APIs, OpenHab),
+    ORM (Hibernate, Ebeans), Android).
 
 :   *Build concepts:*
 
@@ -208,9 +209,7 @@ Advanced Knowledge
 Intermediate Knowledge
 :   *Programming languages:*
 
-    **Java** (Desktop, web (Playframework, Spring ‐> RESTful APIs, OpenHab),
-    ORM (Hibernate, Ebeans), Android), **JavaScript** (AngularJS, Vue.js (Vuetify,
-    Vuex)), **TypeScript** (Angular), **SQL**, **Bash**.
+    **JavaScript** (AngularJS, Vue.js (Vuetify, Vuex)), **TypeScript** (Angular), **SQL**, **Bash**.
 
 :   *Embedded Systems:* 
 
