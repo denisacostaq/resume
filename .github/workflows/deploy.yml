@@ -79,7 +79,7 @@ jobs:
 
       - name: Create Draft Release
         id: create_release
-        uses: actions/create-release@v1
+        uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -87,36 +87,10 @@ jobs:
           release_name: ${{ github.event.head_commit.message }}
           draft: true
           prerelease: false
-
-      - name: Upload pdf
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./build/resume.pdf
-          asset_name: resume.pdf
-          asset_content_type: application/pdf
-
-      - name: Upload txt
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./build/resume.txt
-          asset_name: resume.txt
-          asset_content_type: text/plain
-
-      - name: Upload doc
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./build/resume.docx
-          asset_name: resume.docx
-          asset_content_type: application/msword
+          files: |
+            build/resume.pdf
+            build/resume.txt
+            build/resume.docx
 
       - uses: eregon/publish-release@v1
         env:
