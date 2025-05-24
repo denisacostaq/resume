@@ -13,7 +13,13 @@ Education
 on going
 :   **Certifications**:
 
-:   - [Ansible Advanced - Hands-On - Hands-On](https://www.udemy.com/certificate/UC-9a552c89-47fc-4860-8d6d-ed0a4c063a01/)
+:   - [GitHub Actions - The Complete Guide](https://www.udemy.com/certificate/UC-270d36da-b122-4259-9500-49996bf87c13/)
+- [Observability with Grafana, Prometheus,Loki, Alloy and Tempo](https://www.udemy.com/certificate/UC-335f39af-36c3-4bd3-a660-d3568078847e/)
+- [Monitoreo con Prometheus, Grafana, Spring boot y Docker](https://www.udemy.com/certificate/UC-23d8e8e9-d289-499a-8875-270b8d48e924/)
+- [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://www.udemy.com/certificate/UC-1d611ff2-bc2b-4873-8319-73ac1d5b4093/)
+- [Mastering GitOps with Argo CD](https://www.udemy.com/certificate/UC-3956cfcd-5889-413e-a5f2-5246f12adf71/)
+- [Atlassian Bamboo Data Center from Beginner to Advanced!](https://www.udemy.com/certificate/UC-f61fd228-0128-4d98-97fb-f9c61c9876cc/)
+- [Ansible Advanced - Hands-On - Hands-On](https://www.udemy.com/certificate/UC-9a552c89-47fc-4860-8d6d-ed0a4c063a01/)
 - [Ansible for the Absolute Beginner - Hands-On](https://www.udemy.com/certificate/UC-e124bce6-9352-4ea9-b358-efe3d657f306/)
 - [CKAD: Certified Kubernetes Application Developer.](https://www.credly.com/badges/64d91478-4864-4310-b6ac-2bbf5a549ce8)
 - [HashiCorp Certified: Terraform Associate.](https://www.credly.com/badges/e5eb4ea9-63e7-473b-a2a9-b027aafe72ab)
