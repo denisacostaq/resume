@@ -1,7 +1,7 @@
 ![](Alvaro-photo-chiquita.png){ width=5px; }
 
 ----------------------------          ------------------------------
-@denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer, Sr. Software Developer&body=Hi Alvaro, we have an open oportunity)
+@denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer, Sr. Software Developer&body=Hi Alvaro, we have an open opportunity)
 Sr. Software Developer                          BSc, Informatics Science Engineering
 Location                                        Sofia, Bulgaria
 ----------------------------          ------------------------------
@@ -96,7 +96,7 @@ Experience
     Microservices.
 
 **10/2018‐11/2020**
-:   *Skycoin&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shangai, China*
+:   *Skycoin&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shanghai, China*
 
     A blockchain platform empowering independent blockchain solutions, applying
     blockchain enabled programming languages for virtual assets and implementing
@@ -296,7 +296,7 @@ Personal projects
     as ORM library.
 
     *[clang-format-binary-releases](https://github.com/denisacostaq/clang-format-binary-releases)*
-    is a ready to use binary executable for GNU/Linux and MacOS operatin systems
+    is a ready to use binary executable for GNU/Linux and MacOS operating systems
     of the [Clang Format](https://clang.llvm.org/docs/ClangFormat.html) project.
 
     *[stm3210fx3](https://github.com/denisacostaq/firmware-stm3210fx3)* an
@@ -333,7 +333,7 @@ Open Source
     it have a client library ([hardware-wallet-go](https://github.com/skycoin/hardware-wallet-go/commits?author=stdevAlDen))
     for device communication making use of protocol buffer ([hardware-wallet-protob](https://github.com/skycoin/hardware-wallet-protob/commits?author=stdevAlDen))
     messages. Additionally there is a tool ([Random Number Generator (RNG) tests](https://github.com/denisacostaq/rng-test/commits/feature/update_after_libopencm3_changes))
-    for validating the cryptographyc API.
+    for validating the cryptographic API.
 
 
 Interests
