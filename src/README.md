@@ -1,7 +1,7 @@
 ![](Alvaro-photo-chiquita.png){ width=5px; }
 
 ----------------------------          ------------------------------
-@denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer&body=Hi Alvaro, we have an open oportunity), [skype](https://join.skype.com/invite/srQL37pNwpTi)
+@denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer&body=Hi Alvaro, we have an open oportunity)
 Sr. Software Developer                          BSc, Informatics Science Engineering
 Location                                        Sofia, Bulgaria
 ----------------------------          ------------------------------
