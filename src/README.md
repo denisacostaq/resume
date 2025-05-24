@@ -263,9 +263,9 @@ Intermediate Knowledge
 
 :   *Microservices/DevOps:*
 
-    Kafka, Elasticsearch, Terraform, Kubernetes, AWS (basic), GitLab, Jenkins,
-    TravisCI, GitHub Actions, CircleCI (basic), Docker (+Docker
-    Compose), Ansible.
+    RabbitMQ, Kafka, Elasticsearch +(ECK, EFK), Ansible, Terraform, Docker (+Docker Compose), Helm, Harbor (basic),
+    Prometheus +(Alermanager, Grafana), OpenTelemetry (basic), Kubernetes +(Rancher, Kubespray), AWS (basic),
+    GitLab, Jenkins, TravisCI, Bamboo, GitHub Actions, CircleCI (basic).
 
 :   *API script and/or bindings for C/C++:*
 
