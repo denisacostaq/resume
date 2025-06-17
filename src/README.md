@@ -278,7 +278,7 @@ Intermediate Knowledge
 
 :   *Relational databases:*
 
-    PostgreSQL, MySQL, SQlServer, SQLite3.
+    PostgreSQL, MySQL, SQlServer, SQLite3. +Liquibase
 
 :   *Schemaless databases:*
 
