@@ -71,7 +71,7 @@ Experience
 
     * Contract Type: Full Time.
     * Role: Sr. Software Developer.
-    * Main used technologies: C++, Python, CMake, conan, Kafka, Kubernetes.
+    * Main used technologies: FIX protocol, C++, Python, CMake, conan, Kafka, Kubernetes.
 
 **07/2021‐05/2022**
 :   *Financial Times&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;London, England*
@@ -217,7 +217,7 @@ Intermediate Knowledge
 
 :   *Networks/Protocols:*
 
-    Ethernet (TCP/IP, UDP), Serial (RS‐232/485), Application (gRPC).
+    Ethernet (TCP/IP, UDP), Serial (RS‐232/485), Application (gRPC, FIX).
 
 :   *Abilities:*
 
