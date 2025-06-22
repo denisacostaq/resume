@@ -13,7 +13,8 @@ Education
 on going
 :   **Certifications**:
 
-:   - [GitHub Actions - The Complete Guide](https://www.udemy.com/certificate/UC-270d36da-b122-4259-9500-49996bf87c13/)
+:   - [React 18 Course 2025 - Learn React JS the fast way](https://www.udemy.com/certificate/UC-76af86c3-f972-448f-bdb2-54ac46b3aac9/)
+- [GitHub Actions - The Complete Guide](https://www.udemy.com/certificate/UC-270d36da-b122-4259-9500-49996bf87c13/)
 - [Observability with Grafana, Prometheus,Loki, Alloy and Tempo](https://www.udemy.com/certificate/UC-335f39af-36c3-4bd3-a660-d3568078847e/)
 - [Monitoreo con Prometheus, Grafana, Spring boot y Docker](https://www.udemy.com/certificate/UC-23d8e8e9-d289-499a-8875-270b8d48e924/)
 - [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://www.udemy.com/certificate/UC-1d611ff2-bc2b-4873-8319-73ac1d5b4093/)
