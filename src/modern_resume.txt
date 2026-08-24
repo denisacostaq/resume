@@ -1,0 +1,22 @@
+$title$
+$if(headline)$
+$headline$
+$endif$
+
+$if(contact.location)$
+Location: $contact.location.label$
+$endif$
+$if(contact.email)$
+Email: $contact.email.url$
+$endif$
+$if(contact.linkedin)$
+LinkedIn: $contact.linkedin.url$
+$endif$
+$if(contact.github)$
+GitHub: $contact.github.url$
+$endif$
+$if(contact.website)$
+Online CV: $contact.website.url$
+$endif$
+
+$body$

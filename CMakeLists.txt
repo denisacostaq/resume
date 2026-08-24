@@ -109,12 +109,13 @@ add_custom_target(txt
           --metadata title-prefix="CV"
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
-          --from markdown
-          --to plain+smart
+          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
+          --from markdown-smart-citations
+          --to plain
           --output ${CMAKE_CURRENT_BINARY_DIR}/resume.txt
           ${SOURCE_CONTENT}
 
-    DEPENDS ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
+    DEPENDS ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.txt
     COMMENT "Generating txt file"
     SOURCES ${SOURCE_CONTENT}
