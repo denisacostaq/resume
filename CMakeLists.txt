@@ -144,6 +144,7 @@ add_custom_target(txt
           --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
           --from markdown-smart-citations
           --to plain
+          --wrap=none
           --output ${CMAKE_CURRENT_BINARY_DIR}/resume.txt
           ${SOURCE_CONTENT}
 
