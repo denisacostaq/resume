@@ -20,16 +20,16 @@ add_custom_target(context
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.tex
-          --from markdown
+          --from markdown-smart-citations
           --to context
           --variable papersize=A4
-          --output ${CMAKE_CURRENT_BINARY_DIR}/resume.tex
+          --output ${RESUME_TEX}
           ${SOURCE_CONTENT}
 
     DEPENDS
         ${SOURCE_CONTENT}
         ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.tex
-    BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.tex
+    BYPRODUCTS ${RESUME_TEX}
     COMMENT "Generating ConTeXt file"
     SOURCES
         ${SOURCE_CONTENT}
