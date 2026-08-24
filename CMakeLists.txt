@@ -93,6 +93,7 @@ add_custom_target(doc
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --from markdown
           --to docx
+          --lua-filter "${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua"
           --output ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
           ${SOURCE_CONTENT}
 
