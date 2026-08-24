@@ -27,10 +27,14 @@ add_custom_target(context
           --output ${CMAKE_CURRENT_BINARY_DIR}/resume.tex
           ${SOURCE_CONTENT}
 
-    DEPENDS ${SOURCE_CONTENT}
-    BYPRODUCTS ${RESUME_TEX}
+    DEPENDS
+        ${SOURCE_CONTENT}
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.tex
+    BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.tex
     COMMENT "Generating ConTeXt file"
-    SOURCES ${SOURCE_CONTENT}
+    SOURCES
+        ${SOURCE_CONTENT}
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.tex
 )
 #FIXME(denisacostaq@gmail.com): setting LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 in
 # the cmd line is not portable, #use set(ENV{LC_ALL} en_US.UTF-8)
@@ -57,7 +61,9 @@ add_custom_command(
           -DLOG_FILE=${CONTEXT_LOG}
         -P ${CMAKE_CURRENT_SOURCE_DIR}/cmake/check_pdf.cmake
 
-    DEPENDS "${RESUME_TEX}"
+    DEPENDS
+        ${RESUME_TEX}
+        ${CMAKE_CURRENT_SOURCE_DIR}/cmake/check_pdf.cmake
     COMMENT "Generating pdf file"
     VERBATIM
 )
@@ -81,11 +87,15 @@ add_custom_target(html
           ${SOURCE_CONTENT}
 
     DEPENDS
-      ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
-      ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
+        ${SOURCE_CONTENT}
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
     COMMENT "Generating html file"
-    SOURCES ${SOURCE_CONTENT}
+    SOURCES
+        ${SOURCE_CONTENT}
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
 )
 
 add_custom_target(doc
@@ -122,10 +132,14 @@ add_custom_target(txt
           --output ${CMAKE_CURRENT_BINARY_DIR}/resume.txt
           ${SOURCE_CONTENT}
 
-    DEPENDS ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
+    DEPENDS
+      ${SOURCE_CONTENT}
+      ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.txt
     COMMENT "Generating txt file"
-    SOURCES ${SOURCE_CONTENT}
+    SOURCES
+      ${SOURCE_CONTENT}
+      ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
 )
 
 #pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex  --from markdown --to context --variable papersize=A4 --output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null;
