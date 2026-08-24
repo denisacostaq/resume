@@ -17,7 +17,6 @@ set(RESUME_TEX "${CMAKE_CURRENT_BINARY_DIR}/resume.tex")
 add_custom_target(context
     COMMAND
         ${PANDOC_EXE}
-          --metadata title-prefix="CV"
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.tex
@@ -113,7 +112,6 @@ add_custom_target(html
 add_custom_target(doc
     COMMAND
         ${PANDOC_EXE}
-          --metadata title-prefix="CV"
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --from markdown-smart-citations
@@ -138,7 +136,6 @@ add_custom_target(doc
 add_custom_target(txt
     COMMAND
         ${PANDOC_EXE}
-          --metadata title-prefix="CV"
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
