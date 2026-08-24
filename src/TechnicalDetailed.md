@@ -21,6 +21,16 @@ contact:
 photo: "photo_2025-05-24_17-43-42.jpg"
 ---
 
+Professional Summary
+--------------------
+
+Senior Software Engineer with 15+ years of experience building and evolving distributed systems, backend platforms,
+fintech, media, telecommunications, and embedded software. Strong background in Java, C++, and Go, with hands-on
+experience in microservices, event-driven architectures, Kubernetes, and Linux-based systems. Takes ownership of complex
+engineering problems across architecture, implementation, deployment, observability, and production support. Works
+comfortably across abstraction levels, from low-level systems software to large-scale cloud-native applications.
+
+
 
 Education
 ---------
