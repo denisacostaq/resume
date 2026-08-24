@@ -100,10 +100,14 @@ add_custom_target(doc
           --output ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
           ${SOURCE_CONTENT}
 
-    DEPENDS ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
+    DEPENDS
+        ${SOURCE_CONTENT}
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
     COMMENT "Generating docx file"
-    SOURCES ${SOURCE_CONTENT}
+    SOURCES
+        ${SOURCE_CONTENT}
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua
 )
 
 add_custom_target(txt
