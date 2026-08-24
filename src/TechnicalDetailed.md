@@ -22,13 +22,245 @@ photo: "photo_2025-05-24_17-43-42.jpg"
 ---
 
 Professional Summary
---------------------
+====================
 
 Senior Software Engineer with 15+ years of experience building and evolving distributed systems, backend platforms,
 fintech, media, telecommunications, and embedded software. Strong background in Java, C++, and Go, with hands-on
 experience in microservices, event-driven architectures, Kubernetes, and Linux-based systems. Takes ownership of complex
 engineering problems across architecture, implementation, deployment, observability, and production support. Works
 comfortably across abstraction levels, from low-level systems software to large-scale cloud-native applications.
+
+
+
+Experience
+==========
+
+## Pollard Digital Solutions
+
+**Senior Software Engineer — Platform Engineering** · Jan 2024 – Present  
+**Full-time · Remote from Sofia, Bulgaria · Company based in Winnipeg, Canada**
+
+* Work primarily on platform engineering and developer enablement, building shared tooling, automation, and engineering
+  standards used by development teams across the organization.
+* Developed and improved custom Gradle plugins used to standardize build configuration, dependency management,
+  code-quality checks, testing, and other common engineering practices across Java projects.
+* Established conventions and reusable patterns for Helm charts, including validation and automated testing practices
+  to improve consistency and reliability of Kubernetes deployments.
+* Designed and implemented automation around Camunda integrations, including tooling to support the management and
+  deployment of workflow definitions.
+* Extended and supported Bamboo Specs written in Java, maintaining CI automation and infrastructure during the
+  transition toward GitHub Actions.
+* Improved technical-documentation tooling and pipelines so teams can maintain documentation alongside their code while
+  automated workflows validate and publish it to the organization's technical documentation site.
+* Designed and implemented reusable GitHub Actions workflows as part of the organization's migration from Bamboo and
+  Bitbucket to GitHub, providing standardized CI/CD capabilities across multiple technology stacks.
+* Improved CI/CD and artifact-security practices, helping harden build pipelines and the handling and publication of
+  software artifacts.
+* Helped define and implement reusable dependency-management conventions, including BOM-based dependency alignment for
+  shared libraries and services.
+* Planned, executed, and supported repository migrations for multiple engineering teams, organizing migration approaches
+  by technology stack and helping teams adopt the new GitHub-based development and CI workflows.
+* Developed internal developer self-service tooling for creating repositories with standardized project structure,
+  permissions, CI/CD configuration, security controls, and technology-specific defaults.
+* Introduced and extended open-source tools for internal engineering use, implementing custom features and integrations
+  required by development teams.
+* Built automation and integrations with third-party systems and vendors to reduce manual operational work and provide
+  reusable platform capabilities.
+* Contributed to selected service-level projects outside the platform layer, including integrations with payment
+  processors and external providers.
+* Developed and maintained automated unit and integration tests for platform tooling, CI/CD components, integrations,
+  and supporting services.
+
+**Technologies:** Java, Gradle, GitHub Actions, GitHub, Bamboo, Bamboo Specs, Helm, Kubernetes, Camunda, Prometheus, Grafana, CI/CD, Git, microservices
+
+
+
+## flatex=DEGIRO
+
+**Senior Software Engineer** · Jun 2022 – Jan 2024  
+**Full-time · Hybrid · Sofia, Bulgaria · Company headquartered in Frankfurt am Main, Germany**
+
+* Worked on the order-flow domain, one of the core components of the trading platform, processing orders under very
+  high load.
+* Developed and maintained reliability-critical C++ services responsible for processing and routing trading orders
+  through different stages of the order lifecycle.
+* Implemented new trading functionality and integrations using financial messaging protocols including FIX, ETI, etc.
+* Worked in an environment with extensive automated testing and validation requirements, with a strong focus on
+  correctness, robustness, and regression prevention in business-critical trading workflows.
+* Helped decompose parts of the existing architecture into reusable C++ components, improving separation of
+  responsibilities and reuse across services and applications.
+* Introduced and promoted improved Conan dependency-management practices and combined CMake and Conan to package and
+  consume reusable internal components consistently.
+* Improved parts of the Bamboo CI pipeline and build infrastructure, helping make compilation, dependency management,
+  testing, and delivery workflows more reliable and maintainable.
+* Investigated complex issues across order-processing logic, protocol integrations, dependencies, and surrounding
+  trading-system components.
+
+**Technologies:** C++, FIX, CMake, Conan, Kafka, Kubernetes, Python, Bamboo, Bitbucket, Qt Creator
+
+
+
+## Musala Soft
+
+**Senior Software Engineer** · Dec 2020 – May 2022  
+**Full-time · Sofia, Bulgaria**
+
+Worked on client engagements for Financial Times and Deutsche Telekom as part of Musala Soft's software engineering teams.
+
+### Financial Times
+
+**Client Engagement** · Jul 2021 – May 2022  
+**Sofia, Bulgaria · Client based in London, UK**
+
+* Joined the project with a specific focus on modernizing the search and indexing platform, upgrading Elasticsearch
+  across several major versions.
+* Reworked Elasticsearch index definitions and mappings to accommodate changes between versions and evolving data
+  requirements.
+* Implemented data transformation and migration work required to move existing indexed content to the new Elasticsearch
+  architecture.
+* Updated and maintained Go and Java services integrating with the search and indexing platform as part of the
+  migration.
+* Worked on Kafka-based metadata ingestion pipelines responsible for propagating content metadata through the wider
+  platform.
+* Investigated compatibility and integration issues across Elasticsearch, application services, and data pipelines
+  during the upgrade process.
+
+**Technologies:** Elasticsearch, Go, Java, Kafka, Kubernetes, microservices
+
+### Deutsche Telekom — QIVICON
+
+**Client Engagement** · Jan 2021 – Jun 2021  
+**Remote from Sofia, Bulgaria · Client based in Germany**
+
+* Developed and maintained integrations for smart-home devices from multiple manufacturers within an OSGi-based
+  home-automation gateway platform.
+* Implemented Java/OSGi components responsible for integrating devices with the gateway and exposing their capabilities
+  through the wider smart-home platform.
+* Worked with a large and heterogeneous set of device integrations, investigating compatibility issues across different
+  manufacturers, device models, and communication behaviors.
+* Worked extensively with automated integration and regression tests used to validate device behavior and prevent
+  changes in one integration from affecting others.
+* Investigated failures spanning device communication, gateway software, and integration logic in an environment with
+  a large number of supported devices.
+
+**Technologies:** Java, OSGi, Git, GitLab, GitLab CI, smart-home and IoT device integration
+
+
+
+## Skycoin
+
+**Embedded & Systems Software Engineer** · Oct 2018 – Nov 2020  
+**Full-time · Remote from Havana, Cuba · Company based in Shanghai, China**
+
+* Developed firmware for a hardware wallet used to securely sign cryptocurrency transactions, working primarily in C
+  on embedded hardware.
+* Implemented supporting client libraries in Go and JavaScript for communicating with the hardware wallet and
+  integrating signing functionality into higher-level applications.
+* Built unit and end-to-end test coverage across firmware and client libraries, including tests against the
+  hardware-wallet emulator to validate complete transaction-signing workflows.
+* Worked with Protocol Buffers for structured communication between embedded and host-side components.
+* Developed Prometheus exporters for blockchain network nodes, exposing operational metrics for monitoring and
+  observability.
+* Investigated and resolved issues spanning embedded firmware, communication protocols, client libraries, emulation,
+  and application integration.
+
+**Technologies:** C, Go, JavaScript, libopencm3, Protocol Buffers, Prometheus, embedded systems, hardware wallets
+
+
+
+## DebMedia
+
+**Full-Stack Software Developer** · Jul 2015 – Oct 2019  
+**Part-time Contract · Remote from Havana, Cuba · Company based in Buenos Aires, Argentina**
+
+* Developed and maintained features across a B2B customer-experience platform used to manage customer flows, queues,
+  service interactions, and branch operations.
+* Implemented backend functionality in Java using Play Framework and Ebean ORM, and frontend features with AngularJS.
+* Improved automated test coverage by implementing unit tests and selected integration tests, helping increase system
+  stability and reduce regression issues as the product evolved.
+* Investigated and fixed defects across frontend, backend, and persistence layers, working with an established
+  production codebase over several years.
+
+**Technologies:** Java, Play Framework, Ebean ORM, AngularJS, MySQL, SQL Server, Git, GitLab, GitLab CI
+
+
+
+## Brush Studio
+
+**Mobile Game Developer** · Mar 2014 – Jul 2015  
+**Entrepreneurial / Part-time · Havana, Cuba**
+
+* Developed mobile games in C++ using Cocos2d-x and Box2D, primarily targeting Android devices, with additional support
+  for BlackBerry platforms.
+* Implemented gameplay functionality and supporting game systems within a small development team.
+* Developed an asset-processing tool that generated sprite sheets from sets of source images for use by the games at
+  runtime.
+* Worked with Make-based build systems and the platform-specific requirements involved in building and packaging C++
+  applications for mobile devices.
+
+**Technologies:** C++, Cocos2d-x, Box2D, Make, Android, BlackBerry
+
+
+
+## Industrial Computer Center
+
+**Software Engineer — SCADA & Industrial Integration** · Sep 2016 – Sep 2018  
+**Full-time · Havana, Cuba**
+
+* Developed and maintained SCADA software for industrial automation projects in the petroleum industry, with a strong
+  focus on C++, Boost, Qt, distributed communication, and industrial device integration.
+* Implemented and maintained SCADA communication drivers for integrating industrial equipment and controllers through
+  multiple industrial protocols.
+* Worked with ZeroC Ice/IceStorm and ZeroMQ for distributed communication, publish/subscribe messaging, and
+  communication between SCADA system components.
+* Worked across HMI, communication, device-integration, and supporting application layers, investigating integration
+  issues spanning both software components and industrial equipment.
+* Later joined a process-integration team developing applications that connected operational and SCADA data with
+  higher-level business workflows, combining industrial process automation with ERP-like functionality.
+* Developed backend services with Java and Spring Boot, web applications with AngularJS, and persistence and integration
+  workflows backed by PostgreSQL.
+* Took on increasing technical responsibility within the team, helping guide implementation decisions, coordinate
+  development work, and support other engineers.
+
+**Technologies:** C++, Boost, Qt, QML, ZeroC Ice, IceStorm, ZeroMQ, Java, Spring Boot, AngularJS, PostgreSQL, Linux, SCADA, industrial communication protocols
+
+
+**Embedded & Systems Software Engineer** · Sep 2010 – Aug 2016  
+**Part-time / R&D · Havana, Cuba**
+
+* Developed embedded, systems, and desktop software for industrial automation, home automation, and R&D projects,
+  working across low-level C/C++, Java, Qt/QML, Linux, and custom hardware platforms.
+* Worked with AVR, ARM, and STM32-based devices, including low-level hardware interaction and Linux-based systems
+  running on custom ARM boards.
+* Patched and adapted the Linux kernel for custom ARM hardware and supported the surrounding development and runtime
+  environments.
+* Developed Qt/QML applications targeting desktop systems as well as constrained ARM and mobile devices developed within
+  the R&D center.
+* Implemented and integrated multiple industrial communication protocols and designed custom protocols when existing
+  standards did not fit project requirements.
+* Improved the team's engineering workflow by introducing Jenkins-based continuous integration, supporting the migration
+  from SVN to Git, and maintaining build infrastructure based on CMake, Autotools, and `icecc` distributed compilation.
+* Provided development-infrastructure and systems-administration support, including developer environments, internal
+  services, build machines, and shared servers.
+* Optimized the serialization and deserialization mechanism used by the SCADA HMI tooling to persist graphical interface
+  models and load them at runtime, providing a more efficient foundation for subsequent SCADA projects.
+
+**Technologies:** C, C++, Java, Qt, QML, Linux, Embedded Linux, AVR, ARM, STM32, CMake, Autotools, Jenkins, Git, SVN, icecc, industrial communication protocols
+
+
+
+## FILPACON
+
+**Software Developer Intern** · Sep 2009 – Jun 2010  
+**Internship · Havana, Cuba**
+
+* Supported the development and maintenance of a web access management system, primarily through investigation tasks,
+  test implementation, and well-defined development tickets.
+* Implemented small Java changes and fixes under guidance, gaining practical experience with an existing production
+  codebase and structured software development workflows.
+* Assisted with testing and issue investigation, reproducing problems and helping validate changes before integration.
+
+**Technologies:** Java, SVN, NetBeans
 
 
 
@@ -79,125 +311,6 @@ Additional courses during college
 - **(Jan 2011)** &emsp;Control Systems Oriented Programming.
 - **(Sep 2009)** &emsp;Basic GNU/Linux.
 
-
-Experience
-----------
-
-**01/2024‐today**
-:   *Pollard Digital Solutions&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Winnipeg, Canada*
-
-    **Pollard Digital Solutions**, is the digital innovation arm of Pollard Banknote, a global leader
-    in lottery products and services. PDS develops and supports comprehensive digital solutions,
-    including iLottery platforms, eInstant games, and player engagement tools, empowering lotteries
-    worldwide with cutting-edge technology.
-
-    * Contract Type: Contract for services through Roller Gaming.
-    * Role: Sr. Software Developer.
-    * Main used technologies: Java, Helm, K8s, CI (Bamboo, Github Actions), Camunda, Microservices.
-
-**06/2022‐01/2024**
-:   *FLATEX=DEGIRO&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Amsterdam, Netherlands*
-
-    **Bank Dutch Branch**, trading under the name DEGIRO, is the Dutch branch of flatexDEGIRO Bank AG. flatexDEGIRO Bank AG is primarily supervised by the German Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin). In the Netherlands, flatex DEGIRO Bank Dutch Branch is subject to integrity supervision by DNB and conduct supervision by the AFM.
-
-    * Contract Type: Full Time.
-    * Role: Sr. Software Developer.
-    * Main used technologies: FIX protocol, C++, Python, CMake, conan, Kafka, Kubernetes.
-
-**07/2021‐05/2022**
-:   *Financial Times&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;London, England*
-
-    **The Financial Times** is one of the world’s leading business news
-    organizations, recognised internationally for its authority, integrity and
-    accuracy. The FT has a record paying readership of one million,
-    three-quarters of which are digital subscriptions. It is part of Nikkei Inc.,
-    which provides a broad range of information, news and services for the
-    global business community.
-
-    * Contract Type: Contract for services through Musala Soft.
-    * Role: Sr. Software Developer.
-    * Main used technologies: Java, Golang, Kafka, Elasticsearch, Kubernetes,
-    Microservices.
-
-**01/2021‐06-2021**
-:   *Qivicon, Deutsche Telekom&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Frankfurt, Germany*
-
-    **Qivicon** is an alliance of companies from different industries that was
-    founded in 2011 by Deutsche Telekom. The companies are collaborating on a
-    cross-vendor, wireless-based home automation solution that has been
-    available in the German market since fall 2013. It includes products in the
-    areas of energy, security, and comfort.
-
-    * Contract Type: Contract for services through Musala Soft.
-    * Role: Sr. Software Developer.
-    * Main used technologies: Java, OSGI, GitLab.
-
-**12/2020‐05/2022**
-:   *Musala Soft&emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sofia, Bulgaria*
-
-    **Musala Soft** is a software services company specialized in complex
-    geographically distributed enterprise projects. We believe in excellence and
-    growth inspired by partnership, personal success and team spirit.
-
-    * Contract Type: Full-time.
-    * Role: Sr. Software Developer.
-    * Main used technologies: Java, Golang, Kafka, Elasticsearch, Kubernetes,
-    Microservices.
-
-**10/2018‐11/2020**
-:   *Skycoin&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shanghai, China*
-
-    A blockchain platform empowering independent blockchain solutions, applying
-    blockchain enabled programming languages for virtual assets and implementing
-    the foundations of a decentralized web. Bandwidth backed, incentivized and
-    environmentally friendly. Skycoin will fuel the new internet.
-
-    * Contract Type: Full-time.
-    * Role: Versatile Software Developer, but mainly in Embedded Systems.
-    * Main used technologies: Golang, C, Javascript, LibOpenCM3, Protobuf.
-
-**07/2015‐10/2019**
-:   *DebMedia&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Buenos Aires, Argentina*
-
-    **Debmedia** has a B2B software solution for enterprises to manage Customer
-    Experience in the brick and mortar, focusing on optimizing queues and waits
-    , personalizing every touchpoint and providing actionable branch metrics.
-
-    * Contract Type: Contract.
-    * Role: Full-stack Web Developer.
-    * Main used technologies: Java, Playframework, AngularJS, MySQL, SQLServer.
-
-**03/2014‐07/2015**
-:   *Brush Studio&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
-
-    Mobile entertainment platform company, mobile game development and publishing.
-
-    * Contract Type: Entrepreneurship.
-    * Role: Mobile Video Game Developer.
-    * Main used technologies: C++, cocos2d-x, Make.
-
-**09/2010‐09/2018**
-:   *Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
-
-    **The Industrial Computing Center** develops products and computer services of
-    industrial automation, with a high added value, that also meet the needs and
-    expectations of customers, enhancing specialized training and research.
-
-    * Contract Type: Full-time.
-    * Role: Embedded Systems Software Developer, SCADA Software Developer.
-    * Main used technologies: C, C++, Qt, QML, CMake, Autotools, AVR, ARM,
-    STM32, Java, Spring, PostgreSQL.
-
-**09/2009‐06/2010**
-:   *FILPACON&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
-
-    Filtering System for Internet, allow it to adequate to changeable
-    environments. This project help to contribute to a safer Internet for those
-    sectors of society most vulnerable to inappropriate content.
-
-    * Contract Type: Internship.
-    * Role: Junior Software Developer, first work experience.
-    * Main used technologies: Java, SVN, Netbeans.
 
 
 Skills
