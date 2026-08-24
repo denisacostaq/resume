@@ -270,6 +270,9 @@ Technical Portfolio
 Open Source Contributions
 -------------------------
 
+Historical professional contributions in the Skycoin ecosystem also appear under my other GitHub account
+[`stdevAlDen`](https://github.com/stdevAlDen).
+
 The contributions below include independent upstream work as well as public-repository engineering performed during
 professional engagements. Representative pull requests are linked directly. Historical pull requests that were not
 merged are explicitly identified as such.
@@ -301,7 +304,7 @@ build infrastructure, and compiler development for industrial automation.
 - Implemented a substantial IEC 61131-3 Instruction List compiler prototype using Boost.Spirit.
     - [PR #28 — IEC 61131-3 Instruction List compiler](https://github.com/ciaa/Software-deprecated/pull/28) — implemented
       lexer/parser infrastructure, AST construction, symbol handling, error reporting, IEC data types, variables,
-      configuration elements, program organization units, and associated tests across a 23-commit development series.
+      configuration elements, program organization units, and associated tests.
 
 **Technologies:** C++, Boost.Spirit, Qt, QtSerialPort, QNetwork, Boost.Asio, CMake, CPack, C++11, IEC 61131-3,
 industrial communications
@@ -428,15 +431,16 @@ strongest accepted upstream work centered on C interoperability, cross-language 
       consumers.
 
 - Build and test correctness:
-    - [PR #1395 — Speed up C-library test builds](https://github.com/skycoin/skycoin/pull/1395) — improved `make test-libc`
-      execution through Make dependency/rule changes rather than unnecessarily rebuilding work on each run.
+    - [PR #1395 — C-library test-build improvements](https://github.com/skycoin/skycoin/pull/1395) — contributed to the
+      merged work improving `make test-libc`, including dependency tracking and debug-build support.
     - [PR #1453 — Fix non-executing crypto test loop](https://github.com/skycoin/skycoin/pull/1453) — corrected a
       `scrypt_chacha20poly1305` test loop whose body was not executing as intended.
 
 - Historical development proposal — not merged:
     - [PR #2249 — Expose node health through Prometheus metrics](https://github.com/skycoin/skycoin/pull/2249)
       *(closed historical PR)* — proposed adding node-health information to the metrics endpoint for Prometheus-oriented
-      monitoring; the repository later accepted a separate follow-up implementation.
+      monitoring; the repository later accepted a separate follow-up implementation in
+      [PR #2250](https://github.com/skycoin/skycoin/pull/2250).
 
 **Technologies:** Go, C, C interoperability, SWIG, Python, .NET interoperability, cryptography, Make, automated testing,
 Prometheus
@@ -571,8 +575,8 @@ Maintained a fork of a command-line installer for downloading prebuilt Qt distri
 
 * Added support for selecting a specific Qt package/module from the command line rather than limiting installation to the base target package.
 * Added explicit handling for packages that cannot be found and adjusted download parallelism to use the available CPU count.
-* Personal changes are available in [commit `d2aa86e`](https://github.com/denisacostaq/qli-installer/commit/d2aa86e43563ab4551ed71c761206112ffa3a7d1);
-  and the [fork/upstream comparison](https://github.com/nelsonjchen/qli-installer/compare/master...denisacostaq%3Aqli-installer%3Amaster).
+* These changes are directly visible in [commit `d2aa86e`](https://github.com/denisacostaq/qli-installer/commit/d2aa86e43563ab4551ed71c761206112ffa3a7d1);
+  additional history is available in the [fork/upstream comparison](https://github.com/nelsonjchen/qli-installer/compare/master...denisacostaq%3Aqli-installer%3Amaster).
 
 **Technologies:** Python, Qt distribution tooling, command-line tooling, parallel downloads
 
@@ -638,6 +642,576 @@ Developed a small mobile game in C++ using cocos2d-x, targeting Android with des
 
 
 
+# Technical Skills & Toolbox
+
+* **Advanced:** deep hands-on experience; able to design, troubleshoot, review, and guide complex work independently.
+* **Proficient:** substantial hands-on experience; comfortable using the technology independently in real engineering
+  work.
+* **Familiar:** limited, exploratory, or developing experience; understands the fundamentals but may require ramp-up for
+  deeper work.
+
+Where useful, **Current**, **Recent**, or **Historical** qualifiers indicate recency independently from proficiency.
+
+## Programming Languages
+
+**Advanced**
+
+* **C** — embedded development, firmware, low-level interfaces, systems programming
+* **C++** — systems software, embedded systems, desktop applications, performance-sensitive software
+* **Go** — backend services, infrastructure/tooling, protocol clients, REST services
+* **Java** — backend services, distributed systems, desktop applications
+
+**Proficient**
+
+* **Python** — scripting, automation, and Flask
+* **TypeScript** — Angular and frontend application development
+* **JavaScript** — AngularJS, Vue.js, browser/client applications
+* **SQL**
+* **Bash / shell scripting**
+
+**Familiar**
+
+* **Python ecosystem** — Django, NumPy, Pandas, Matplotlib; limited production use
+* **PHP** — Symfony
+* **Ruby**
+* **Prolog**
+* **Io**
+* **MATLAB**
+
+## Language Ecosystems & Frameworks
+
+### C++ Ecosystem
+
+**Advanced**
+
+* STL
+* Boost
+* Qt 4 / Qt 5
+* QML
+* C++03 / C++11 / C++14 / C++17
+* C++ templates and generic programming
+
+**Proficient**
+
+* Poco
+* GTK
+* Qwt
+* template metaprogramming
+
+### Java / JVM Ecosystem
+
+**Advanced**
+
+* Java SE
+* Spring / Spring Boot
+
+**Proficient**
+
+* OSGi
+* Play Framework — Historical
+* Android Java development — Historical
+* Java desktop applications
+
+**Familiar · Historical**
+
+* Tomcat
+
+### Go Ecosystem
+
+**Advanced**
+
+* backend and service development
+* REST service implementation
+* systems and tooling development
+* goroutines and synchronization primitives
+
+### Python Ecosystem
+
+**Proficient**
+
+* scripting
+* automation
+* Flask
+
+**Familiar**
+
+* Django — Historical
+* NumPy
+* Pandas
+* Matplotlib
+
+### Web & Frontend
+
+**Proficient**
+
+* Angular
+* AngularJS — Historical
+* HTML5
+* CSS3
+
+**Familiar**
+
+* Vue.js
+* Vuetify
+* Vuex
+* React
+* Node.js
+* Backbone.js — Historical
+* jQuery — Historical
+* Cordova / PhoneGap — Historical
+* Ionic — Historical
+* Stylus — Historical
+
+### Interoperability & Language Bindings
+
+**Proficient**
+
+* SWIG
+* JNI
+
+**Familiar · Historical**
+
+* SIP
+* Boost.Python
+
+## Distributed Systems, Messaging & Protocols
+
+### Distributed Systems & Messaging
+
+**Advanced**
+
+* microservices
+* publish/subscribe messaging
+
+**Proficient**
+
+* Apache Kafka
+* RabbitMQ
+* ZeroMQ
+* ZeroC Ice — Historical
+* IceStorm — Historical
+
+### Protocols & Interfaces
+
+**Proficient**
+
+* FIX Protocol
+* REST / HTTP APIs
+* gRPC
+* Ethernet
+* TCP/IP
+* UDP
+* Modbus
+* RS-232
+* RS-485
+* D-Bus
+* custom binary/application protocol design
+* industrial communication protocols
+
+**Familiar**
+
+* MQTT
+* CAN
+* BLE
+* Eddystone
+* XML-RPC
+* SOAP
+* Sun RPC / `rpcgen`
+* ETI / exchange connectivity
+
+### Serialization & Data Formats
+
+**Proficient**
+
+* Protocol Buffers
+* JSON
+* XML
+
+## Platform & Cloud Native
+
+**Advanced**
+
+* Kubernetes
+* Helm
+
+**Proficient · Current / Recent**
+
+* Docker
+* Docker Compose
+
+**Proficient**
+
+* AWS
+* Ansible
+* Terraform
+* Kubespray
+* Elasticsearch on Kubernetes / ECK
+
+**Familiar · Current / Recent**
+
+* Harbor
+* Rancher
+* GCP / GKE
+
+## Build, Dependency & Package Management
+
+### Build Systems
+
+**Advanced**
+
+* **Gradle**
+
+    * custom Gradle plugins
+    * shared build conventions
+
+* **CMake**
+
+    * target-based project organization
+    * cross-platform builds
+    * cross-architecture builds
+    * cross-compilation
+    * CTest
+    * CPack
+    * CDash
+
+* **GNU Autotools**
+
+    * autoconf
+    * automake
+    * autoheader
+    * autoscan
+    * libtool
+    * gettext / intltool
+
+* Make
+
+**Proficient · Historical**
+
+* Buildroot
+* Android SDK / NDK
+
+**Familiar · Historical**
+
+* ACR
+* Ant
+
+### Dependency & Package Management
+
+**Proficient**
+
+* Conan
+* Gradle dependency management
+* BOM-based dependency alignment
+* Maven — Historical
+* artifact repositories and publishing
+* Debian packaging (`fakeroot`) — Historical
+
+**Familiar · Historical**
+
+* Ivy
+
+## CI/CD & Delivery Engineering
+
+**Advanced · Current / Recent**
+
+* GitHub Actions
+
+    * reusable workflows
+    * organizational CI/CD standards
+
+* CI/CD architecture and reusable pipeline design
+
+* build and test automation
+
+* CI security and hardening
+
+* standardized quality gates
+
+**Advanced · Recent**
+
+* Bamboo
+
+**Proficient · Current / Recent**
+
+* Bamboo Specs
+
+**Proficient · Historical**
+
+* GitLab CI
+* Jenkins
+* Travis CI
+
+**Familiar**
+
+* CircleCI
+
+## Source Control & Collaboration Platforms
+
+**Advanced**
+
+* Git
+* GitHub
+
+**Proficient**
+
+* GitLab
+* Bitbucket
+* SVN — Historical
+
+**Familiar · Historical**
+
+* CVS
+
+## Data Stores & Persistence
+
+### Databases, Caches & Search
+
+**Proficient**
+
+* PostgreSQL
+* MySQL
+* SQL Server
+* SQLite
+* MongoDB
+* Redis
+* Elasticsearch
+
+**Familiar**
+
+* Neo4j
+* LevelDB
+
+### ORM & Persistence Frameworks
+
+**Proficient**
+
+* Hibernate — Historical
+* Ebean ORM — Historical
+
+**Familiar**
+
+* GORM
+
+### Schema Migration
+
+**Proficient**
+
+* Liquibase
+* Flyway
+
+## Observability & Operational Tooling
+
+**Proficient**
+
+* Prometheus
+* Grafana
+* Alertmanager
+* EFK logging stacks
+* application and platform instrumentation
+
+**Familiar**
+
+* OpenTelemetry
+
+## Testing, Debugging & Diagnostics
+
+### Testing & Quality Engineering
+
+**Advanced**
+
+* unit testing
+* integration testing
+* end-to-end testing
+* regression testing
+* testable component design
+
+**Proficient**
+
+* protocol and integration testing
+* GoogleTest
+* GoogleMock
+* CTest
+* gcov and code-coverage workflows
+
+### Debugging & Profiling
+
+**Proficient**
+
+* Valgrind
+* strace
+* gprof
+* GNU/Linux debugging and diagnostics
+* network/protocol troubleshooting
+
+**Familiar**
+
+* Wireshark
+
+## Embedded & Systems Engineering
+
+### Embedded Systems
+
+**Advanced**
+
+* Embedded C / C++
+* Embedded GNU/Linux
+* ARM / STM32
+* software development for custom embedded hardware
+* low-level hardware/software interfaces
+* embedded application architecture
+
+**Proficient**
+
+* FreeRTOS
+* AVR
+* STM32 Standard Peripheral Library
+* libopencm3
+* lwIP
+* OpenOCD
+* ST-Link
+* JTAG-based development and debugging
+
+**Familiar · Historical**
+
+* dsPIC30F3013
+* AVR ATmega8 / ATmega16
+
+### Embedded Development Tools
+
+**Familiar · Historical**
+
+* Proteus
+* AVR Studio
+* CCS C Compiler
+
+### Operating Systems & Systems Programming
+
+**Advanced**
+
+* GNU/Linux software development
+
+* Linux IPC
+
+    * pipes
+    * shared memory
+    * message queues
+    * semaphores
+
+* process- and thread-level troubleshooting
+
+## Software Architecture & Engineering Practices
+
+**Advanced**
+
+* software architecture, modularization, and reusable component design
+* API and library design
+* distributed-system design
+* event-driven architecture
+* microservices architecture
+* concurrent programming
+
+**Proficient**
+
+* algorithms and data structures
+
+**Familiar · Historical**
+
+* Aspect-Oriented Programming
+
+## Documentation & Documentation Tooling
+
+**Proficient**
+
+* Markdown
+* Doxygen
+* documentation-as-code and automated publishing
+* generated API/reference documentation workflows
+
+**Familiar**
+
+* LaTeX / ConTeXt
+* Pandoc
+
+## Domain Experience
+
+### Platform Engineering & Developer Enablement
+
+**Advanced · Current / Recent**
+
+* engineering automation
+* developer platforms and enablement
+* developer self-service
+* reusable CI workflows
+* shared build and CI/CD infrastructure
+* GitOps and GitOps-based workflows
+* build and dependency conventions
+* software supply-chain and artifact security
+
+### Industrial Automation & SCADA
+
+**Advanced**
+
+* SCADA systems
+* HMI software
+* industrial device integration
+* industrial communication drivers
+* process automation
+* industrial data acquisition
+* OT / enterprise-system integration
+
+### Financial & Trading Systems
+
+**Proficient**
+
+* electronic trading systems
+* order lifecycle and order processing
+* high-volume, reliability-critical financial systems
+* financial-market connectivity
+
+### Cryptocurrency & Hardware-Wallet Systems
+
+**Familiar**
+
+* blockchain and cryptocurrency systems
+
+## Additional Technical Areas
+
+### Machine Learning & Data Science
+
+**Familiar**
+
+* machine-learning concepts
+* neural networks
+* collaborative filtering and recommender systems
+* Keras
+* TensorFlow
+
+### Computer Vision
+
+**Familiar**
+
+* OpenCV
+* computer-vision concepts
+
+### Graphics & Game Development
+
+**Proficient · Historical**
+
+* cocos2d-x
+* Box2D
+
+**Familiar**
+
+* OpenGL
+
+### Robotics
+
+**Familiar**
+
+* ROS
+
+
+
 Education
 ---------
 
@@ -684,136 +1258,6 @@ Additional courses during college
 - **(Sep 2012)** &emsp;Data Structures and Algorithms.
 - **(Jan 2011)** &emsp;Control Systems Oriented Programming.
 - **(Sep 2009)** &emsp;Basic GNU/Linux.
-
-
-
-Skills
-------
-
-Advanced Knowledge
-:   *Programming languages:*
-
-    **C**, **C++** (03, 11, 14 with: stl, boost, poco, gtk, qt (4, 5) + **qml**,
-    gtest (gmock), qwt, cocos2d‐x, box2d, ROS (very basic), OpenGL (very basic),
-    OpenCV (basic)), **Go**, **Java** (Desktop, web (Playframework, Spring ‐> RESTful APIs, OpenHab),
-    ORM (Hibernate, Ebeans), Android).
-
-:   *Build concepts:*
-
-     Advanced compile concepts, including cross platform build, cross architecture
-     build and both.
-
-:   *Operating System concepts and practice:*
-
-     **Embedded GNU/Linux, software development on GNU/Linux, Linux IPC** (Pipe,
-     Shared Memory, Message Queues, Semaphores).
-
-:    *Networks/Protocols:*
-
-     Application (Modbus, D‐Bus).
-
-:    *Abilities:*
-
-     Structured Programming, Object Oriented Programming, Generic Programming,
-     use of metrics for code writing (I prefer document the source code using
-     Doxygen style).
-
-:    *Good practices:*
-
-     Proactively and constructively makes suggestions for process or product
-     improvement. I am able to work both autonomously and in a collaborative
-     environment.
-
-Intermediate Knowledge
-:   *Programming languages:*
-
-    **JavaScript** (AngularJS, Vue.js (Vuetify, Vuex)), **TypeScript** (Angular), **SQL**, **Bash**.
-
-:   *Embedded Systems:* 
-
-    FreeRTOS, STM32‐Library, lwIP, LibOpenCM3.
-
-:   *Networks/Protocols:*
-
-    Ethernet (TCP/IP, UDP), Serial (RS‐232/485), Application (gRPC, FIX).
-
-:   *Abilities:*
-
-    Concurrent programming (thread and/or task based concurrency), Template 
-    Meta‐programming, Algorithms, Machine Learning, Automated Software Testing 
-    (unit/integration tests).
-
-Basic Knowledge
-:   *Programming languages:*
-
-    **Php** (Symfony), **Python** (Django, Flask, Numpy, Pandas, Matplotlib,
-    Keras/TensorFlow), **Ruby, Javascript** (Node.js, Backbone.js, jQuery, Mobil
-    (Cordova/Phonegap, Ionic)), **Prolog**, **Io** (the programming language),
-    **MATLAB**.
-
-:   *Other languages:*
-
-    protobuf, json, xml, plist, html5, ccs3 (+stylus), markdown, LaTeX.
-
-:   *Networks/Protocols:*
-
-    Application (Mqtt, rpc (+rpcgen), xmlrpc, SOAP), BLE (+Eddystone), CAN.
-
-:   *Abilities:*
-
-    Aspect Oriented Programming, Computer Vision, Blockchain.
-
-
-Toolbox
--------
-
-Advanced Knowledge
-:   *Build and development tools:*
-
-    **CMake** (CPack, CTest, CDash), **GNU autotools** (autoscan, autoheader,
-    autoconf, automake, libtool, autoproject, intltool[gettext]), **BuildRoot,
-    Git**.
-
-Intermediate Knowledge
-:   *Build and development tools:*
-
-    gradle, valgrind, strace, gprof, gcov, fakeroot (debian packaging), Android‐SDK/NDK.
-
-:   *Microservices/DevOps:*
-
-    RabbitMQ, Kafka, Elasticsearch +(ECK, EFK), Ansible, Terraform, Docker (+Docker Compose), Helm, Harbor (basic),
-    Prometheus +(Alermanager, Grafana), OpenTelemetry (basic), Kubernetes +(Rancher, Kubespray), AWS (basic),
-    GitLab, Jenkins, TravisCI, Bamboo, GitHub Actions, CircleCI (basic).
-
-:   *API script and/or bindings for C/C++:*
-
-    swig, sip, boost::python, jni
-
-:   *Microcontrollers and hardware tools:*
-
-    Proteus, CCS (C Compiler of Custom Computer Services Incorporated), AVR
-    Studio.
-
-:   *Relational databases:*
-
-    PostgreSQL, MySQL, SQlServer, SQLite3. +Liquibase
-
-:   *Schemaless databases:*
-
-    Mongo, Redis.
-
-Basic Knowledge
-:   *Build and development tools:*
-
-    wireshark, svn, cvs, tomcat, maven, ant, ivy, acr.
-
-:   *Microcontrollers development tools:*
-
-    PIC (30F3013), AVR (Atmega8 and Atmega16), ARM (stm3210fx*), openocd, st‐link.
-
-:   *Schemaless databases:*
-
-    Neo4j, LevelDB.
 
 
 
