@@ -73,13 +73,16 @@ add_custom_target(html
           --metadata title-prefix="CV"
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
-          --include-in-header ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
+          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
+          --css ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
           --from markdown-smart-citations
           --to html5
           --output ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
           ${SOURCE_CONTENT}
 
-    DEPENDS ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
+    DEPENDS
+      ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
+      ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
     COMMENT "Generating html file"
     SOURCES ${SOURCE_CONTENT}
