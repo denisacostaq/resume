@@ -20,7 +20,7 @@ add_custom_target(context
           --metadata title-prefix="CV"
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
-          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/chmduquesne.tex
+          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.tex
           --from markdown
           --to context
           --variable papersize=A4
