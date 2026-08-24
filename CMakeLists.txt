@@ -104,17 +104,20 @@ add_custom_target(doc
           --metadata title-prefix="CV"
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
-          --from markdown
+          --from markdown-smart-citations
           --to docx
-          --lua-filter "${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua"
+          --lua-filter ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua
           --output ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
           ${SOURCE_CONTENT}
 
     DEPENDS
         ${SOURCE_CONTENT}
         ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua
+
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
+
     COMMENT "Generating docx file"
+
     SOURCES
         ${SOURCE_CONTENT}
         ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua
