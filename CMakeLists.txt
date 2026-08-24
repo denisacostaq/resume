@@ -64,6 +64,8 @@ add_custom_command(
     DEPENDS
         ${RESUME_TEX}
         ${CMAKE_CURRENT_SOURCE_DIR}/cmake/check_pdf.cmake
+    BYPRODUCTS
+        ${CONTEXT_LOG}
     COMMENT "Generating pdf file"
     VERBATIM
 )
