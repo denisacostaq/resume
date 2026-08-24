@@ -1268,17 +1268,25 @@ Additional Courses During College
 Interests
 ---------
 
-Professional
-:   open source, software development, software design (design patterns),
-    control, neural network, fuzzy logic, SCADAs.
+**Professional**
 
-Personal
-:   water polo, travel, gym, dancing.
+* Open source
+* Software engineering and software design
+* Design patterns
+* Control systems
+* Neural networks
+* Fuzzy logic
+* SCADA systems
+
+**Personal**
+
+* Water polo
+* Travel
+* Gym / fitness
+* Dancing
 
 
-Last version
-------------
+Latest Version
+--------------
 
-----------------------------                                   ------------------------------
-[online version](https://denisacostaq.github.io/resume)              [other formats](https://github.com/denisacostaq/resume/releases/latest)
-----------------------------                                   ------------------------------
+[Online version](https://denisacostaq.github.io/resume) · [Other formats](https://github.com/denisacostaq/resume/releases/latest)
