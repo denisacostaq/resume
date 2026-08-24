@@ -18,7 +18,6 @@ add_custom_target(context
     COMMAND
         ${PANDOC_EXE}
           --metadata title-prefix="CV"
-          --metadata title='Alvaro Denis Acosta'
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --template ${CMAKE_CURRENT_SOURCE_DIR}/src/chmduquesne.tex
@@ -72,7 +71,6 @@ add_custom_target(html
     COMMAND
         ${PANDOC_EXE}
           --metadata title-prefix="CV"
-          --metadata title='Alvaro Denis Acosta'
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --include-in-header ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
@@ -91,7 +89,6 @@ add_custom_target(doc
     COMMAND
         ${PANDOC_EXE}
           --metadata title-prefix="CV"
-          --metadata title='Alvaro Denis Acosta'
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --from markdown
@@ -109,7 +106,6 @@ add_custom_target(txt
     COMMAND
         ${PANDOC_EXE}
           --metadata title-prefix="CV"
-          --metadata title='Alvaro Denis Acosta'
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --from markdown

@@ -1,10 +1,25 @@
-![](photo_2025-05-24_17-43-42.jpg){ width=5px; }
+---
+title: "Alvaro Denis Acosta"
+headline: "Senior Software Engineer | Backend, Distributed Systems & Platform Engineering"
+contact:
+  location:
+    label: "Sofia, Bulgaria"
+    url: "https://www.google.com/maps/place/42%C2%B041'07.1%22N+23%C2%B019'08.5%22E/@42.6939301,23.321263,550a,35y,189.2h,65.86t/data=!3m1!1e3!4m4!3m3!8m2!3d42.6853056!4d23.3190278?entry=ttu&g_ep=EgoyMDI2MDgyMy4wIKXMDSoASAFQAw%3D%3D"
+  email:
+    label: "Email"
+    url: "mailto:denisacostaq@gmail.com"
+  linkedin:
+    label: "LinkedIn"
+    url: "https://www.linkedin.com/in/denisacostaq"
+  github:
+    label: "GitHub"
+    url: "https://github.com/denisacostaq"
+  website:
+    label: "Online CV"
+    url: "https://denisacostaq.github.io/resume/"
 
-----------------------------          ------------------------------
-@denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer, Sr. Software Developer&body=Hi Alvaro, we have an open opportunity)
-Sr. Software Developer                          BSc, Informatics Science Engineering
-Location                                        Sofia, Bulgaria
-----------------------------          ------------------------------
+photo: "photo_2025-05-24_17-43-42.jpg"
+---
 
 
 Education
