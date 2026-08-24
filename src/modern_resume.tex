@@ -1,0 +1,337 @@
+% =============================================================================
+% Modern Resume Template
+% Pandoc Markdown -> ConTeXt -> PDF
+%
+% Goals:
+%   - Clean one-column senior-engineering CV
+%   - A4
+%   - Compact but readable
+%   - Good PDF text extraction
+%   - Clickable links
+%   - Optional photo
+%   - No definition-list layout hacks
+% =============================================================================
+
+$if(context-lang)$
+\mainlanguage[$context-lang$]
+$else$
+$if(mainlang)$
+\mainlanguage[$mainlang$]
+$endif$
+$endif$
+
+% -----------------------------------------------------------------------------
+% Colors
+% -----------------------------------------------------------------------------
+
+\setupcolors[state=start]
+\setupcolor[hex]
+
+\definecolor[accent]   [h=2F5D7C]
+\definecolor[textmain] [h=222222]
+\definecolor[textmuted][h=666666]
+\definecolor[rulecolor][h=D9DEE3]
+
+% -----------------------------------------------------------------------------
+% PDF / hyperlinks
+% -----------------------------------------------------------------------------
+
+\setupinteraction
+  [state=start,
+   style=normal,
+   color=accent,
+$if(title)$
+   title={$title$},
+$endif$
+  ]
+
+\setupurl
+  [style=normal,
+   color=accent]
+
+\placebookmarks
+  [section,subsection]
+  [section]
+
+\setupinteractionscreen
+  [option={bookmark,title}]
+
+% Improves PDF structure and text extraction.
+\setupbackend[export=yes]
+\setupstructure[state=start,method=auto]
+
+% -----------------------------------------------------------------------------
+% Page
+% -----------------------------------------------------------------------------
+
+\setuppapersize[A4][A4]
+
+\setuplayout
+  [backspace=17mm,
+   cutspace=17mm,
+   topspace=13mm,
+   bottomspace=14mm,
+   header=0mm,
+   footer=7mm,
+   width=middle,
+   height=middle]
+
+% -----------------------------------------------------------------------------
+% Typography
+% -----------------------------------------------------------------------------
+
+\definefontfeature
+  [resume-default]
+  [default]
+  [script=latn,
+   protrusion=quality,
+   expansion=quality,
+   itlc=yes,
+   textitalics=yes,
+   pnum=yes]
+
+\definefontfamily
+  [resume]
+  [ss]
+  [Latin Modern Sans]
+  [features=resume-default]
+
+\definefontfamily
+  [resume]
+  [tt]
+  [Latin Modern Mono]
+  [features=none]
+
+\setupbodyfont[resume,ss,10pt]
+
+\setupalign[hz,hanging]
+\setupitaliccorrection[global,always]
+
+\setupinterlinespace[line=2.75ex]
+\setupwhitespace[small]
+
+% Try to avoid ugly single lines at page boundaries.
+\clubpenalty=10000
+\widowpenalty=10000
+\brokenpenalty=5000
+
+% -----------------------------------------------------------------------------
+% Page numbering
+% -----------------------------------------------------------------------------
+
+% Useful for the Technical Detailed CV.
+% For the short job-application CV we can disable this later.
+
+\setuppagenumbering
+  [location={footer,right},
+   style=\tfx,
+   color=textmuted]
+
+% -----------------------------------------------------------------------------
+% Headings
+%
+% Markdown:
+%
+% # Experience
+% ## Pollard Digital Solutions
+% ### Optional smaller subsection
+% -----------------------------------------------------------------------------
+
+\setuphead
+  [section]
+  [number=no,
+   style=\bfa,
+   color=accent,
+   before={\blank[medium]},
+   after={\blank[small]},
+   page=no]
+
+\setuphead
+  [subsection]
+  [number=no,
+   style=\bf,
+   color=textmain,
+   before={\blank[small]},
+   after={\blank[small]},
+   page=no]
+
+\setuphead
+  [subsubsection]
+  [number=no,
+   style=\bf,
+   color=textmuted,
+   before={\blank[small]},
+   after={\blank[small]},
+   page=no]
+
+\definesectionlevels
+  [default]
+  [section,
+   subsection,
+   subsubsection,
+   subsubsubsection,
+   subsubsubsubsection]
+
+% -----------------------------------------------------------------------------
+% Definition lists
+%
+% Still supported for real semantic definition lists.
+% They are NOT used anymore as a fake two-column layout.
+% -----------------------------------------------------------------------------
+
+\definedescription
+  [description]
+  [headstyle=bold,
+   style=normal,
+   location=serried,
+   width=broad,
+   distance=.75em,
+   margin=0mm]
+
+% -----------------------------------------------------------------------------
+% Lists
+% -----------------------------------------------------------------------------
+
+\setupitemize[each][packed,joinedup]
+\setupitemize[indentnext=no]
+
+% -----------------------------------------------------------------------------
+% Tables / figures
+% -----------------------------------------------------------------------------
+
+\setupxtable
+  [frame=off,
+   option={stretch,width}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+% -----------------------------------------------------------------------------
+% Additional Pandoc includes
+% -----------------------------------------------------------------------------
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+% =============================================================================
+% Document
+% =============================================================================
+
+\starttext
+
+% -----------------------------------------------------------------------------
+% Identity / header block
+%
+% Supported Markdown metadata:
+%
+% title:
+% headline:
+% contact:
+% photo:
+%
+% Example:
+%
+% ---
+% title: Alvaro Denis Acosta
+% headline: Senior Software Engineer | Backend, Distributed & Systems Engineering
+% contact: Sofia, Bulgaria · [Email](mailto:...) · [LinkedIn](...) · [GitHub](...)
+% photo: photo_2025-05-24_17-43-42.jpg
+% ---
+%
+% Remove "photo" and the template automatically becomes photo-free.
+% -----------------------------------------------------------------------------
+
+$if(title)$
+
+$if(photo)$
+
+\noindent
+\hbox to \textwidth{%
+  \vtop{%
+    \hsize=.82\textwidth
+
+    {\tfc\bf
+     \color[textmain]{$title$}
+     \par}
+
+$if(headline)$
+    \blank[small]
+
+    {\tfa\bf
+     \color[accent]{$headline$}
+     \par}
+$endif$
+
+$if(contact)$
+    \blank[small]
+
+    {\tfx
+     \color[textmuted]{$contact$}
+     \par}
+$endif$
+  }%
+  \hfill
+  \vtop{%
+    \externalfigure
+      [$photo$]
+      [width=25mm]
+  }%
+}
+
+$else$
+
+{\tfc\bf
+ \color[textmain]{$title$}
+ \par}
+
+$if(headline)$
+\blank[small]
+
+{\tfa\bf
+ \color[accent]{$headline$}
+ \par}
+$endif$
+
+$if(contact)$
+\blank[small]
+
+{\tfx
+ \color[textmuted]{$contact$}
+ \par}
+$endif$
+
+$endif$
+
+\blank[medium]
+
+\color[rulecolor]
+  {\hrule height .6pt}
+
+\blank[medium]
+
+$endif$
+
+% -----------------------------------------------------------------------------
+% Optional content before Markdown body
+% -----------------------------------------------------------------------------
+
+$for(include-before)$
+$include-before$
+$endfor$
+
+% -----------------------------------------------------------------------------
+% Markdown document body
+% -----------------------------------------------------------------------------
+
+$body$
+
+% -----------------------------------------------------------------------------
+% Optional content after Markdown body
+% -----------------------------------------------------------------------------
+
+$for(include-after)$
+$include-after$
+$endfor$
+
+\stoptext
