@@ -11,21 +11,46 @@ if(NOT MTXRUN_EXE)
 endif()
 #By default, ConTeXt searches an image in the current directory, the parent directory, and the grand-parent directory.
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/photo_2025-05-24_17-43-42.jpg DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+set(RESUME_TEX "${CMAKE_CURRENT_BINARY_DIR}/resume.tex")
 add_custom_target(context
     COMMAND ${PANDOC_EXE} --metadata title-prefix="CV" --metadata title='Alvaro Denis Acosta' --standalone --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src --template ${CMAKE_CURRENT_SOURCE_DIR}/src/chmduquesne.tex --from markdown --to context --variable papersize=A4 --output ${CMAKE_CURRENT_BINARY_DIR}/resume.tex ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md
     DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md
-    BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.tex
+    BYPRODUCTS ${RESUME_TEX}
     COMMENT "Generating ConTeXt file"
     SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md)
 #FIXME(denisacostaq@gmail.com): setting LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 in
 # the cmd line is not portable, #use set(ENV{LC_ALL} en_US.UTF-8)
 # set(ENV{LANG} en_US.UTF-8)
-add_custom_target(pdf ALL
-    COMMAND LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 ${MTXRUN_EXE} --path=${CMAKE_CURRENT_BINARY_DIR} --result=${CMAKE_CURRENT_BINARY_DIR}/resume.pdf --script context ${CMAKE_CURRENT_BINARY_DIR}/resume.tex > ${CMAKE_CURRENT_BINARY_DIR}/context.log 2>&1
-    DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/resume.tex
-    BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.pdf
+
+set(RESUME_PDF "${CMAKE_CURRENT_BINARY_DIR}/resume.pdf")
+set(CONTEXT_LOG "${CMAKE_CURRENT_BINARY_DIR}/context.log")
+add_custom_command(
+    OUTPUT "${RESUME_PDF}"
+
+    COMMAND
+        ${CMAKE_COMMAND} -E env LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+        ${MTXRUN_EXE}
+          --path=${CMAKE_CURRENT_BINARY_DIR}
+          --result=${RESUME_PDF}
+          --script context
+        ${RESUME_TEX}
+          > ${CONTEXT_LOG} 2>&1
+
+    COMMAND
+        ${CMAKE_COMMAND}
+          -DPDF_FILE=${RESUME_PDF}
+          -DTEX_FILE=${RESUME_TEX}
+          -DLOG_FILE=${CONTEXT_LOG}
+        -P ${CMAKE_CURRENT_SOURCE_DIR}/cmake/check_pdf.cmake
+
+    DEPENDS "${RESUME_TEX}"
     COMMENT "Generating pdf file"
-    SOURCES ${CMAKE_CURRENT_BINARY_DIR}/resume.tex)
+    VERBATIM
+)
+add_custom_target(pdf ALL
+    DEPENDS "${RESUME_PDF}"
+)
+
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/www)
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/photo_2025-05-24_17-43-42.jpg DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/www)
 add_custom_target(html
@@ -34,12 +59,14 @@ add_custom_target(html
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
     COMMENT "Generating html file"
     SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md)
+
 add_custom_target(doc
     COMMAND ${PANDOC_EXE} --metadata title-prefix="CV" --metadata title='Alvaro Denis Acosta' --standalone --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src --from markdown --to docx --output ${CMAKE_CURRENT_BINARY_DIR}/resume.docx ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md
     DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
     COMMENT "Generating docx file"
     SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md)
+
 add_custom_target(txt
     COMMAND ${PANDOC_EXE} --metadata title-prefix="CV" --metadata title='Alvaro Denis Acosta' --standalone --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src --from markdown --to plain+smart --output ${CMAKE_CURRENT_BINARY_DIR}/resume.txt ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md
     DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
