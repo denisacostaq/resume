@@ -1213,51 +1213,55 @@ Where useful, **Current**, **Recent**, or **Historical** qualifiers indicate rec
 
 
 Education
----------
+=========
 
-on going
-:   **Certifications**:
+Certifications & Professional Courses
+-------------------------------------
 
-:   - [React & TypeScript - The Practical Guide](https://www.udemy.com/certificate/UC-637e9415-be02-46fe-8968-5954fa405dc0/)
-- [The Complete Cloud Computing Software Architecture Patterns](https://www.udemy.com/certificate/UC-4df93718-90b4-4213-a1f3-86eeaf19e2a8/)
-- [The Complete Microservices & Event-Driven Architecture](https://www.udemy.com/certificate/UC-cffeb924-faa5-443c-8435-35777ee345dc/)
-- [Software Architecture & System Design Practical Case Studies](https://www.udemy.com/certificate/UC-37091017-4f80-4f4b-8b4b-f98f1d75a861/)
-- [Software Architecture & Design of Modern Large Scale Systems](https://www.udemy.com/certificate/UC-f773724c-c745-44b2-a0fc-ffb66deb0581/)
-- [React 18 Course 2025 - Learn React JS the fast way](https://www.udemy.com/certificate/UC-76af86c3-f972-448f-bdb2-54ac46b3aac9/)
-- [GitHub Actions - The Complete Guide](https://www.udemy.com/certificate/UC-270d36da-b122-4259-9500-49996bf87c13/)
-- [Observability with Grafana, Prometheus,Loki, Alloy and Tempo](https://www.udemy.com/certificate/UC-335f39af-36c3-4bd3-a660-d3568078847e/)
-- [Monitoreo con Prometheus, Grafana, Spring boot y Docker](https://www.udemy.com/certificate/UC-23d8e8e9-d289-499a-8875-270b8d48e924/)
-- [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://www.udemy.com/certificate/UC-1d611ff2-bc2b-4873-8319-73ac1d5b4093/)
-- [Mastering GitOps with Argo CD](https://www.udemy.com/certificate/UC-3956cfcd-5889-413e-a5f2-5246f12adf71/)
-- [Atlassian Bamboo Data Center from Beginner to Advanced!](https://www.udemy.com/certificate/UC-f61fd228-0128-4d98-97fb-f9c61c9876cc/)
-- [Ansible Advanced - Hands-On - Hands-On](https://www.udemy.com/certificate/UC-9a552c89-47fc-4860-8d6d-ed0a4c063a01/)
-- [Ansible for the Absolute Beginner - Hands-On](https://www.udemy.com/certificate/UC-e124bce6-9352-4ea9-b358-efe3d657f306/)
-- [CKAD: Certified Kubernetes Application Developer.](https://www.credly.com/badges/64d91478-4864-4310-b6ac-2bbf5a549ce8)
-- [HashiCorp Certified: Terraform Associate.](https://www.credly.com/badges/e5eb4ea9-63e7-473b-a2a9-b027aafe72ab)
-- [AWS Fundamentals: Going Cloud-Native.](https://coursera.org/share/10f564163b0104fd0db91991e652fa40)
-- [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization.](https://coursera.org/share/35e572da94401374f2acd45c9a9a245e)
-- [Neural Networks and Deep Learning.](https://coursera.org/share/e1073a6fb55aa8646710e46434a961fa)
-- [C++ Tutorial course.](https://www.sololearn.com/Certificate/1051-1144645/jpg)
-- [Java Tutorial course.](https://www.sololearn.com/Certificate/1068-1144645/jpg)
-- [Control of Mobile Robots.](https://coursera.org/share/835e837e5b947faf6b302fb66e1b919e)
-- [Machine Learning.](https://coursera.org/share/8946146c01502c365e6919c5e69c06e4)
+* [React & TypeScript - The Practical Guide](https://www.udemy.com/certificate/UC-637e9415-be02-46fe-8968-5954fa405dc0/)
+* [The Complete Cloud Computing Software Architecture Patterns](https://www.udemy.com/certificate/UC-4df93718-90b4-4213-a1f3-86eeaf19e2a8/)
+* [The Complete Microservices & Event-Driven Architecture](https://www.udemy.com/certificate/UC-cffeb924-faa5-443c-8435-35777ee345dc/)
+* [Software Architecture & System Design Practical Case Studies](https://www.udemy.com/certificate/UC-37091017-4f80-4f4b-8b4b-f98f1d75a861/)
+* [Software Architecture & Design of Modern Large Scale Systems](https://www.udemy.com/certificate/UC-f773724c-c745-44b2-a0fc-ffb66deb0581/)
+* [React 18 Course 2025 - Learn React JS the fast way](https://www.udemy.com/certificate/UC-76af86c3-f972-448f-bdb2-54ac46b3aac9/)
+* [GitHub Actions - The Complete Guide](https://www.udemy.com/certificate/UC-270d36da-b122-4259-9500-49996bf87c13/)
+* [Observability with Grafana, Prometheus,Loki, Alloy and Tempo](https://www.udemy.com/certificate/UC-335f39af-36c3-4bd3-a660-d3568078847e/)
+* [Monitoreo con Prometheus, Grafana, Spring boot y Docker](https://www.udemy.com/certificate/UC-23d8e8e9-d289-499a-8875-270b8d48e924/)
+* [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://www.udemy.com/certificate/UC-1d611ff2-bc2b-4873-8319-73ac1d5b4093/)
+* [Mastering GitOps with Argo CD](https://www.udemy.com/certificate/UC-3956cfcd-5889-413e-a5f2-5246f12adf71/)
+* [Atlassian Bamboo Data Center from Beginner to Advanced!](https://www.udemy.com/certificate/UC-f61fd228-0128-4d98-97fb-f9c61c9876cc/)
+* [Ansible Advanced - Hands-On - Hands-On](https://www.udemy.com/certificate/UC-9a552c89-47fc-4860-8d6d-ed0a4c063a01/)
+* [Ansible for the Absolute Beginner - Hands-On](https://www.udemy.com/certificate/UC-e124bce6-9352-4ea9-b358-efe3d657f306/)
+* [CKAD: Certified Kubernetes Application Developer.](https://www.credly.com/badges/64d91478-4864-4310-b6ac-2bbf5a549ce8)
+* [HashiCorp Certified: Terraform Associate.](https://www.credly.com/badges/e5eb4ea9-63e7-473b-a2a9-b027aafe72ab)
+* [AWS Fundamentals: Going Cloud-Native.](https://coursera.org/share/10f564163b0104fd0db91991e652fa40)
+* [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization.](https://coursera.org/share/35e572da94401374f2acd45c9a9a245e)
+* [Neural Networks and Deep Learning.](https://coursera.org/share/e1073a6fb55aa8646710e46434a961fa)
+* [C++ Tutorial course.](https://www.sololearn.com/Certificate/1051-1144645/jpg)
+* [Java Tutorial course.](https://www.sololearn.com/Certificate/1068-1144645/jpg)
+* [Control of Mobile Robots.](https://coursera.org/share/835e837e5b947faf6b302fb66e1b919e)
+* [Machine Learning.](https://coursera.org/share/8946146c01502c365e6919c5e69c06e4)
 
 
-2009-2016
-:   **BSc, Informatics Science Engineering**; Universidad de las Ciencias Informáticas
-    (Havana, Cuba). *Thesis title: Binary Serialization Mechanism*.
+Degree
+------
 
-Additional courses during college
-:   &emsp;&emsp;**Date**&emsp;&emsp;&emsp;&emsp;**Course tittle**
+**BSc, Informatics Sciences Engineering** · 2009–2016  
+Universidad de las Ciencias Informáticas · Havana, Cuba  
+*Thesis: Binary Serialization Mechanism*
 
-:   - **(Sep 2015)** &emsp;Artificial Neural Networks.
-- **(Jan 2015)** &emsp;Pattern Recognition (combinatorial logical approach).
-- **(Jan 2013)** &emsp;Configuring Network Interconnection Equipment.
-- **(Sep 2012)** &emsp;TCP/IP and Applications.
-- **(Sep 2012)** &emsp;Services Oriented Architecture (SOA).
-- **(Sep 2012)** &emsp;Data Structures and Algorithms.
-- **(Jan 2011)** &emsp;Control Systems Oriented Programming.
-- **(Sep 2009)** &emsp;Basic GNU/Linux.
+
+Additional Courses During College
+---------------------------------
+
+* **Sep 2015** — Artificial Neural Networks
+* **Jan 2015** — Pattern Recognition (combinatorial logical approach)
+* **Jan 2013** — Configuring Network Interconnection Equipment
+* **Sep 2012** — TCP/IP and Applications
+* **Sep 2012** — Services Oriented Architecture (SOA)
+* **Sep 2012** — Data Structures and Algorithms
+* **Jan 2011** — Control Systems Oriented Programming
+* **Sep 2009** — Basic GNU/Linux
 
 
 
