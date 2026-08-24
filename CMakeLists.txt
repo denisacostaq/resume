@@ -76,8 +76,8 @@ add_custom_target(html
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --include-in-header ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
-          --from markdown
-          --to html
+          --from markdown-smart-citations
+          --to html5
           --output ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
           ${SOURCE_CONTENT}
 
