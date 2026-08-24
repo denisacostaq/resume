@@ -75,12 +75,17 @@ file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/www)
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/photo_2025-05-24_17-43-42.jpg DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/www)
 add_custom_target(html
     COMMAND
+          ${CMAKE_COMMAND} -E copy_if_different
+          ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
+          ${CMAKE_CURRENT_BINARY_DIR}/www/modern_resume.css
+
+    COMMAND
         ${PANDOC_EXE}
           --metadata title-prefix="CV"
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
-          --css ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
+          --css modern_resume.css
           --from markdown-smart-citations
           --to html5
           --output ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
@@ -90,8 +95,13 @@ add_custom_target(html
         ${SOURCE_CONTENT}
         ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
         ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
-    BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
+
+    BYPRODUCTS
+        ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
+        ${CMAKE_CURRENT_BINARY_DIR}/www/modern_resume.css
+
     COMMENT "Generating html file"
+
     SOURCES
         ${SOURCE_CONTENT}
         ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
