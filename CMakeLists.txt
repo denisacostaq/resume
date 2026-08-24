@@ -15,11 +15,24 @@ set(SOURCE_CONTENT ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md)
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/photo_2025-05-24_17-43-42.jpg DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 set(RESUME_TEX "${CMAKE_CURRENT_BINARY_DIR}/resume.tex")
 add_custom_target(context
-    COMMAND ${PANDOC_EXE} --metadata title-prefix="CV" --metadata title='Alvaro Denis Acosta' --standalone --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src --template ${CMAKE_CURRENT_SOURCE_DIR}/src/chmduquesne.tex --from markdown --to context --variable papersize=A4 --output ${CMAKE_CURRENT_BINARY_DIR}/resume.tex ${SOURCE_CONTENT}
+    COMMAND
+        ${PANDOC_EXE}
+          --metadata title-prefix="CV"
+          --metadata title='Alvaro Denis Acosta'
+          --standalone
+          --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
+          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/chmduquesne.tex
+          --from markdown
+          --to context
+          --variable papersize=A4
+          --output ${CMAKE_CURRENT_BINARY_DIR}/resume.tex
+          ${SOURCE_CONTENT}
+
     DEPENDS ${SOURCE_CONTENT}
     BYPRODUCTS ${RESUME_TEX}
     COMMENT "Generating ConTeXt file"
-    SOURCES ${SOURCE_CONTENT})
+    SOURCES ${SOURCE_CONTENT}
+)
 #FIXME(denisacostaq@gmail.com): setting LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 in
 # the cmd line is not portable, #use set(ENV{LC_ALL} en_US.UTF-8)
 # set(ENV{LANG} en_US.UTF-8)
@@ -56,25 +69,59 @@ add_custom_target(pdf ALL
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/www)
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/photo_2025-05-24_17-43-42.jpg DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/www)
 add_custom_target(html
-    COMMAND ${PANDOC_EXE} --metadata title-prefix="CV" --metadata title='Alvaro Denis Acosta' --standalone --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src --include-in-header ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css --from markdown --to html --output ${CMAKE_CURRENT_BINARY_DIR}/www/index.html ${SOURCE_CONTENT}
+    COMMAND
+        ${PANDOC_EXE}
+          --metadata title-prefix="CV"
+          --metadata title='Alvaro Denis Acosta'
+          --standalone
+          --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
+          --include-in-header ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
+          --from markdown
+          --to html
+          --output ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
+          ${SOURCE_CONTENT}
+
     DEPENDS ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
     COMMENT "Generating html file"
-    SOURCES ${SOURCE_CONTENT})
+    SOURCES ${SOURCE_CONTENT}
+)
 
 add_custom_target(doc
-    COMMAND ${PANDOC_EXE} --metadata title-prefix="CV" --metadata title='Alvaro Denis Acosta' --standalone --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src --from markdown --to docx --output ${CMAKE_CURRENT_BINARY_DIR}/resume.docx ${SOURCE_CONTENT}
+    COMMAND
+        ${PANDOC_EXE}
+          --metadata title-prefix="CV"
+          --metadata title='Alvaro Denis Acosta'
+          --standalone
+          --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
+          --from markdown
+          --to docx
+          --output ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
+          ${SOURCE_CONTENT}
+
     DEPENDS ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
     COMMENT "Generating docx file"
-    SOURCES ${SOURCE_CONTENT})
+    SOURCES ${SOURCE_CONTENT}
+)
 
 add_custom_target(txt
-    COMMAND ${PANDOC_EXE} --metadata title-prefix="CV" --metadata title='Alvaro Denis Acosta' --standalone --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src --from markdown --to plain+smart --output ${CMAKE_CURRENT_BINARY_DIR}/resume.txt ${SOURCE_CONTENT}
+    COMMAND
+        ${PANDOC_EXE}
+          --metadata title-prefix="CV"
+          --metadata title='Alvaro Denis Acosta'
+          --standalone
+          --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
+          --from markdown
+          --to plain+smart
+          --output ${CMAKE_CURRENT_BINARY_DIR}/resume.txt
+          ${SOURCE_CONTENT}
+
     DEPENDS ${SOURCE_CONTENT} ${CMAKE_CURRENT_SOURCE_DIR}/src/style.css
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.txt
     COMMENT "Generating txt file"
-    SOURCES ${SOURCE_CONTENT})
+    SOURCES ${SOURCE_CONTENT}
+)
 
 #pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex  --from markdown --to context --variable papersize=A4 --output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null;
 #mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
