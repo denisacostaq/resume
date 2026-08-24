@@ -31,6 +31,10 @@ jobs:
           sudo apt clean
           sudo apt update
           sudo apt install -y pandoc context
+          # Generate the ConTeXt resolver database so mtxrun can locate installed scripts
+          mtxrun --generate
+          # Verify ConTeXt can resolve and run its context script
+          mtxrun --script context --version
 #        working-directory: ${{env.working-directory}}
 
       # Configure the project to build
