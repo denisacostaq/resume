@@ -13,7 +13,12 @@ Education
 on going
 :   **Certifications**:
 
-:   - [React 18 Course 2025 - Learn React JS the fast way](https://www.udemy.com/certificate/UC-76af86c3-f972-448f-bdb2-54ac46b3aac9/)
+:   - [React & TypeScript - The Practical Guide](https://www.udemy.com/certificate/UC-637e9415-be02-46fe-8968-5954fa405dc0/)
+- [The Complete Cloud Computing Software Architecture Patterns](https://www.udemy.com/certificate/UC-4df93718-90b4-4213-a1f3-86eeaf19e2a8/)
+- [The Complete Microservices & Event-Driven Architecture](https://www.udemy.com/certificate/UC-cffeb924-faa5-443c-8435-35777ee345dc/)
+- [Software Architecture & System Design Practical Case Studies](https://www.udemy.com/certificate/UC-37091017-4f80-4f4b-8b4b-f98f1d75a861/)
+- [Software Architecture & Design of Modern Large Scale Systems](https://www.udemy.com/certificate/UC-f773724c-c745-44b2-a0fc-ffb66deb0581/)
+- [React 18 Course 2025 - Learn React JS the fast way](https://www.udemy.com/certificate/UC-76af86c3-f972-448f-bdb2-54ac46b3aac9/)
 - [GitHub Actions - The Complete Guide](https://www.udemy.com/certificate/UC-270d36da-b122-4259-9500-49996bf87c13/)
 - [Observability with Grafana, Prometheus,Loki, Alloy and Tempo](https://www.udemy.com/certificate/UC-335f39af-36c3-4bd3-a660-d3568078847e/)
 - [Monitoreo con Prometheus, Grafana, Spring boot y Docker](https://www.udemy.com/certificate/UC-23d8e8e9-d289-499a-8875-270b8d48e924/)
