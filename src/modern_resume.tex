@@ -264,11 +264,30 @@ $if(headline)$
 $endif$
 
 $if(contact)$
-    \blank[small]
+  \blank[small]
 
-    {\tfx
-     \color[textmuted]{$contact$}
-     \par}
+  {\tfx
+   \color[textmuted]{
+  $if(contact.location)$
+    \goto{$contact.location.label$}[url($contact.location.url$)]
+  $endif$
+  $if(contact.email)$
+    \quad\color[rulecolor]{\bullet}\quad
+    \goto{$contact.email.label$}[url($contact.email.url$)]
+  $endif$
+  $if(contact.linkedin)$
+    \quad\color[rulecolor]{\bullet}\quad
+    \goto{$contact.linkedin.label$}[url($contact.linkedin.url$)]
+  $endif$
+  $if(contact.github)$
+    \quad\color[rulecolor]{\bullet}\quad
+    \goto{$contact.github.label$}[url($contact.github.url$)]
+  $endif$
+  $if(contact.website)$
+    \quad\color[rulecolor]{\bullet}\quad
+    \goto{$contact.website.label$}[url($contact.website.url$)]
+  $endif$
+   }\par}
 $endif$
   }%
   \hfill
