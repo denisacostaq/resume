@@ -89,6 +89,8 @@ add_custom_target(html
           --css modern_resume.css
           --from markdown-smart-citations
           --to html5
+          --toc
+          --toc-depth=2
           --output ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
           ${SOURCE_CONTENT}
 
