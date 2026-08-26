@@ -47,10 +47,16 @@ jobs:
           cmake ..
 
       # Runs a single command using the runners shell
-      - name: Build docs
+      - name: Build CV
         shell: bash
         working-directory: ${{env.working-directory}}/build
-        run: make pdf doc txt html
+        run: make pdf doc txt
+
+      - name: Build html version
+        shell: bash
+        run: |
+          cmake -S . -B build -DUSE_TECHNICAL_DETAILED=ON
+          cmake --build build --target html
 
       - name: Cache
         uses: actions/cache@v4.2.3
