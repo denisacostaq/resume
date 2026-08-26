@@ -38,14 +38,12 @@ jobs:
       - name: Configure project build
         shell: bash
         run: |
-          mkdir build
-          pushd build
-          cmake ..
+          cmake -S . -B build
 
       # Runs a single command using the runners shell
       - name: Build CV
         shell: bash
-        run: make pdf doc txt
+        run: cmake --build build --target pdf doc txt
 
       - name: Build html version
         shell: bash
