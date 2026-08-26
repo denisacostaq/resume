@@ -70,33 +70,27 @@ jobs:
           name: build-output
           path: build
 
-      - name: Extract tag name
-        id: get_version
-        run: echo "VERSION=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_OUTPUT
+      - name: Get release name
+        id: release
+        shell: bash
+        run: |
+          echo "name=$(git log -1 --pretty=%s)" >> "$GITHUB_OUTPUT"
 
-      - name: Create Draft Release
-        id: create_release
-        uses: softprops/action-gh-release@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create release
+        uses: softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228 # v3.0.2
         with:
-          tag_name: ${{ steps.get_version.outputs.VERSION }}
-          release_name: ${{ github.event.head_commit.message }}
-          draft: true
+          tag_name: ${{ github.ref_name }}
+          name: ${{ steps.release.outputs.name }}
+          draft: false
           prerelease: false
+          fail_on_unmatched_files: true
           files: |
             build/resume.pdf
             build/resume.txt
             build/resume.docx
 
-      - uses: eregon/publish-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          release_id: ${{ steps.create_release.outputs.id }}
-
       - name: Deploy html version
-        uses: JamesIves/github-pages-deploy-action@v4.7.3
+        uses: JamesIves/github-pages-deploy-action@fa24774553152dd7873cd16ebd8d959b010c5445 # v4.9.0
         with:
           single-commit: true
           branch: gh-pages # The branch the action should deploy to.
