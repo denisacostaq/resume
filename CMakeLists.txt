@@ -24,7 +24,7 @@ add_custom_target(context
         ${PANDOC_EXE}
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
-          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.tex
+          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.tex
           --from markdown-smart-citations
           --to context
           --variable papersize=A4
@@ -33,12 +33,12 @@ add_custom_target(context
 
     DEPENDS
         ${SOURCE_CONTENT}
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.tex
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.tex
     BYPRODUCTS ${RESUME_TEX}
     COMMENT "Generating ConTeXt file"
     SOURCES
         ${SOURCE_CONTENT}
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.tex
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.tex
 )
 #FIXME(denisacostaq@gmail.com): setting LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 in
 # the cmd line is not portable, #use set(ENV{LC_ALL} en_US.UTF-8)
@@ -82,7 +82,7 @@ file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/photo_2025-05-24_17-43-42.jpg DESTINAT
 add_custom_target(html
     COMMAND
           ${CMAKE_COMMAND} -E copy_if_different
-          ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
+          ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.css
           ${CMAKE_CURRENT_BINARY_DIR}/www/modern_resume.css
 
     COMMAND
@@ -90,7 +90,7 @@ add_custom_target(html
           --metadata title-prefix="CV"
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
-          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
+          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.html
           --css modern_resume.css
           --from markdown-smart-citations
           --to html5
@@ -101,8 +101,8 @@ add_custom_target(html
 
     DEPENDS
         ${SOURCE_CONTENT}
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.html
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.css
 
     BYPRODUCTS
         ${CMAKE_CURRENT_BINARY_DIR}/www/index.html
@@ -112,8 +112,8 @@ add_custom_target(html
 
     SOURCES
         ${SOURCE_CONTENT}
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.html
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.css
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.html
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.css
 )
 
 add_custom_target(doc
@@ -123,13 +123,13 @@ add_custom_target(doc
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
           --from markdown-smart-citations
           --to docx
-          --lua-filter ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua
+          --lua-filter ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume_docx.lua
           --output ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
           ${SOURCE_CONTENT}
 
     DEPENDS
         ${SOURCE_CONTENT}
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume_docx.lua
 
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.docx
 
@@ -137,7 +137,7 @@ add_custom_target(doc
 
     SOURCES
         ${SOURCE_CONTENT}
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume_docx.lua
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume_docx.lua
 )
 
 add_custom_target(txt
@@ -145,7 +145,7 @@ add_custom_target(txt
         ${PANDOC_EXE}
           --standalone
           --resource-path=${CMAKE_CURRENT_SOURCE_DIR}/src
-          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
+          --template ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.txt
           --from markdown-smart-citations
           --to plain
           --wrap=none
@@ -154,12 +154,12 @@ add_custom_target(txt
 
     DEPENDS
       ${SOURCE_CONTENT}
-      ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
+      ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.txt
     BYPRODUCTS ${CMAKE_CURRENT_BINARY_DIR}/resume.txt
     COMMENT "Generating txt file"
     SOURCES
       ${SOURCE_CONTENT}
-      ${CMAKE_CURRENT_SOURCE_DIR}/src/modern_resume.txt
+      ${CMAKE_CURRENT_SOURCE_DIR}/src/templates/modern_resume.txt
 )
 
 #pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex  --from markdown --to context --variable papersize=A4 --output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null;
