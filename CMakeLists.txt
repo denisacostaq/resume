@@ -10,7 +10,12 @@ if(NOT MTXRUN_EXE)
     message(FATAL_ERROR "ConTeXt TDS Runner Tool not found (https://wiki.contextgarden.net/Installation) --> apt install context")
 endif()
 
-set(SOURCE_CONTENT ${CMAKE_CURRENT_SOURCE_DIR}/src/README.md)
+option(BUILD_DETAILED_VARIANT "Build detailed variant of the CV" OFF)
+
+set(SOURCE_CONTENT "${CMAKE_CURRENT_SOURCE_DIR}/src/README.md")
+if(BUILD_DETAILED_VARIANT)
+    set(SOURCE_CONTENT "${CMAKE_CURRENT_SOURCE_DIR}/src/TechnicalDetailed.md")
+endif()
 #By default, ConTeXt searches an image in the current directory, the parent directory, and the grand-parent directory.
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/src/photo_2025-05-24_17-43-42.jpg DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 set(RESUME_TEX "${CMAKE_CURRENT_BINARY_DIR}/resume.tex")
