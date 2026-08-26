@@ -1,377 +1,237 @@
-![](photo_2025-05-24_17-43-42.jpg){ width=5px; }
-
-----------------------------          ------------------------------
-@denisacostaq                                   [linkedin](https://www.linkedin.com/in/denisacostaq), [github](https://github.com/denisacostaq), [gmail](mailto:denisacostaq@gmail.com?subject=Job Offer, Sr. Software Developer&body=Hi Alvaro, we have an open opportunity)
-Sr. Software Developer                          BSc, Informatics Science Engineering
-Location                                        Sofia, Bulgaria
-----------------------------          ------------------------------
-
-
-Education
----------
-
-on going
-:   **Certifications**:
-
-:   - [React 18 Course 2025 - Learn React JS the fast way](https://www.udemy.com/certificate/UC-76af86c3-f972-448f-bdb2-54ac46b3aac9/)
-- [GitHub Actions - The Complete Guide](https://www.udemy.com/certificate/UC-270d36da-b122-4259-9500-49996bf87c13/)
-- [Observability with Grafana, Prometheus,Loki, Alloy and Tempo](https://www.udemy.com/certificate/UC-335f39af-36c3-4bd3-a660-d3568078847e/)
-- [Monitoreo con Prometheus, Grafana, Spring boot y Docker](https://www.udemy.com/certificate/UC-23d8e8e9-d289-499a-8875-270b8d48e924/)
-- [Helm Masterclass: 50 Practical Demos for Kubernetes DevOps](https://www.udemy.com/certificate/UC-1d611ff2-bc2b-4873-8319-73ac1d5b4093/)
-- [Mastering GitOps with Argo CD](https://www.udemy.com/certificate/UC-3956cfcd-5889-413e-a5f2-5246f12adf71/)
-- [Atlassian Bamboo Data Center from Beginner to Advanced!](https://www.udemy.com/certificate/UC-f61fd228-0128-4d98-97fb-f9c61c9876cc/)
-- [Ansible Advanced - Hands-On - Hands-On](https://www.udemy.com/certificate/UC-9a552c89-47fc-4860-8d6d-ed0a4c063a01/)
-- [Ansible for the Absolute Beginner - Hands-On](https://www.udemy.com/certificate/UC-e124bce6-9352-4ea9-b358-efe3d657f306/)
-- [CKAD: Certified Kubernetes Application Developer.](https://www.credly.com/badges/64d91478-4864-4310-b6ac-2bbf5a549ce8)
-- [HashiCorp Certified: Terraform Associate.](https://www.credly.com/badges/e5eb4ea9-63e7-473b-a2a9-b027aafe72ab)
-- [AWS Fundamentals: Going Cloud-Native.](https://coursera.org/share/10f564163b0104fd0db91991e652fa40)
-- [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization.](https://coursera.org/share/35e572da94401374f2acd45c9a9a245e)
-- [Neural Networks and Deep Learning.](https://coursera.org/share/e1073a6fb55aa8646710e46434a961fa)
-- [C++ Tutorial course.](https://www.sololearn.com/Certificate/1051-1144645/jpg)
-- [Java Tutorial course.](https://www.sololearn.com/Certificate/1068-1144645/jpg)
-- [Control of Mobile Robots.](https://coursera.org/share/835e837e5b947faf6b302fb66e1b919e)
-- [Machine Learning.](https://coursera.org/share/8946146c01502c365e6919c5e69c06e4)
-
-
-2009-2016
-:   **BSc, Informatics Science Engineering**; Universidad de las Ciencias Informáticas
-    (Havana, Cuba). *Thesis title: Binary Serialization Mechanism*.
-
-Additional courses during college
-:   &emsp;&emsp;**Date**&emsp;&emsp;&emsp;&emsp;**Course tittle**
-
-:   - **(Sep 2015)** &emsp;Artificial Neural Networks.
-- **(Jan 2015)** &emsp;Pattern Recognition (combinatorial logical approach).
-- **(Jan 2013)** &emsp;Configuring Network Interconnection Equipment.
-- **(Sep 2012)** &emsp;TCP/IP and Applications.
-- **(Sep 2012)** &emsp;Services Oriented Architecture (SOA).
-- **(Sep 2012)** &emsp;Data Structures and Algorithms.
-- **(Jan 2011)** &emsp;Control Systems Oriented Programming.
-- **(Sep 2009)** &emsp;Basic GNU/Linux.
-
-
-Experience
-----------
-
-**01/2024‐today**
-:   *Pollard Digital Solutions&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Winnipeg, Canada*
-
-    **Pollard Digital Solutions**, is the digital innovation arm of Pollard Banknote, a global leader
-    in lottery products and services. PDS develops and supports comprehensive digital solutions,
-    including iLottery platforms, eInstant games, and player engagement tools, empowering lotteries
-    worldwide with cutting-edge technology.
-
-    * Contract Type: Contract for services through Roller Gaming.
-    * Role: Sr. Software Developer.
-    * Main used technologies: Java, Helm, K8s, CI (Bamboo, Github Actions), Camunda, Microservices.
-
-**06/2022‐01/2024**
-:   *FLATEX=DEGIRO&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Amsterdam, Netherlands*
-
-    **Bank Dutch Branch**, trading under the name DEGIRO, is the Dutch branch of flatexDEGIRO Bank AG. flatexDEGIRO Bank AG is primarily supervised by the German Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin). In the Netherlands, flatex DEGIRO Bank Dutch Branch is subject to integrity supervision by DNB and conduct supervision by the AFM.
-
-    * Contract Type: Full Time.
-    * Role: Sr. Software Developer.
-    * Main used technologies: FIX protocol, C++, Python, CMake, conan, Kafka, Kubernetes.
+---
+title: "Alvaro Denis Acosta"
+headline: "Senior Software Engineer | Backend, Distributed Systems & Platform Engineering"
+contact:
+  location:
+    label: "Sofia, Bulgaria"
+    url: "https://www.google.com/maps/place/42%C2%B041'07.1%22N+23%C2%B019'08.5%22E/@42.6939301,23.321263,550a,35y,189.2h,65.86t/data=!3m1!1e3!4m4!3m3!8m2!3d42.6853056!4d23.3190278?entry=ttu&g_ep=EgoyMDI2MDgyMy4wIKXMDSoASAFQAw%3D%3D"
+  email:
+    label: "Email"
+    url: "mailto:denisacostaq@gmail.com"
+  linkedin:
+    label: "LinkedIn"
+    url: "https://www.linkedin.com/in/denisacostaq"
+  github:
+    label: "GitHub"
+    url: "https://github.com/denisacostaq"
+  website:
+    label: "Online CV"
+    url: "https://denisacostaq.github.io/resume/"
 
-**07/2021‐05/2022**
-:   *Financial Times&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;London, England*
+photo: "photo_2025-05-24_17-43-42.jpg"
+---
 
-    **The Financial Times** is one of the world’s leading business news
-    organizations, recognised internationally for its authority, integrity and
-    accuracy. The FT has a record paying readership of one million,
-    three-quarters of which are digital subscriptions. It is part of Nikkei Inc.,
-    which provides a broad range of information, news and services for the
-    global business community.
+## Professional Summary
 
-    * Contract Type: Contract for services through Musala Soft.
-    * Role: Sr. Software Developer.
-    * Main used technologies: Java, Golang, Kafka, Elasticsearch, Kubernetes,
-    Microservices.
+Senior Software Engineer with 15+ years of experience building and evolving distributed systems, backend platforms, fintech, media, telecommunications, and embedded software. Strong background in Java, C++, and Go, with hands-on experience in microservices, event-driven architectures, Kubernetes, and Linux-based systems. Takes ownership of complex engineering problems across architecture, implementation, deployment, observability, and production support. Works comfortably across abstraction levels, from low-level systems software to large-scale cloud-native applications.
 
-**01/2021‐06-2021**
-:   *Qivicon, Deutsche Telekom&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Frankfurt, Germany*
+## Professional Experience
 
-    **Qivicon** is an alliance of companies from different industries that was
-    founded in 2011 by Deutsche Telekom. The companies are collaborating on a
-    cross-vendor, wireless-based home automation solution that has been
-    available in the German market since fall 2013. It includes products in the
-    areas of energy, security, and comfort.
+### Pollard Digital Solutions
 
-    * Contract Type: Contract for services through Musala Soft.
-    * Role: Sr. Software Developer.
-    * Main used technologies: Java, OSGI, GitLab.
+**Senior Software Engineer | Platform Engineering** · Jan 2024 – Present
+Full-time · Remote from Sofia, Bulgaria · Company based in Winnipeg, Canada
 
-**12/2020‐05/2022**
-:   *Musala Soft&emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sofia, Bulgaria*
+* Work primarily on platform engineering and developer enablement, building shared tooling, automation, and engineering standards used by development teams across the organization.
+* Developed and improved custom Gradle plugins used to standardize build configuration, dependency management, code-quality checks, testing, and other common engineering practices across Java projects.
+* Designed and implemented reusable GitHub Actions workflows as part of the organization's migration from Bamboo and Bitbucket to GitHub, providing standardized CI/CD capabilities across multiple technology stacks.
+* Developed internal developer self-service tooling for creating repositories with standardized project structure, permissions, CI/CD configuration, security controls, and technology-specific defaults.
+* Established conventions and reusable patterns for Helm charts, including validation and automated testing practices to improve consistency and reliability of Kubernetes deployments.
 
-    **Musala Soft** is a software services company specialized in complex
-    geographically distributed enterprise projects. We believe in excellence and
-    growth inspired by partnership, personal success and team spirit.
+**Technologies:** Java, Gradle, GitHub Actions, GitHub, Bamboo, Bamboo Specs, Helm, Kubernetes, Camunda, Prometheus, Grafana, CI/CD, Git, microservices
 
-    * Contract Type: Full-time.
-    * Role: Sr. Software Developer.
-    * Main used technologies: Java, Golang, Kafka, Elasticsearch, Kubernetes,
-    Microservices.
+### flatex=DEGIRO
 
-**10/2018‐11/2020**
-:   *Skycoin&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Shanghai, China*
+**Senior Software Engineer** · Jun 2022 – Jan 2024
+Full-time · Hybrid · Sofia, Bulgaria · Company headquartered in Frankfurt am Main, Germany
 
-    A blockchain platform empowering independent blockchain solutions, applying
-    blockchain enabled programming languages for virtual assets and implementing
-    the foundations of a decentralized web. Bandwidth backed, incentivized and
-    environmentally friendly. Skycoin will fuel the new internet.
+* Worked on the order-flow domain, one of the core components of the trading platform, processing orders under very high load.
+* Developed and maintained reliability-critical C++ services responsible for processing and routing trading orders through different stages of the order lifecycle.
+* Implemented new trading functionality and integrations using financial messaging protocols including FIX and ETI.
+* Helped decompose parts of the existing architecture into reusable C++ components, improving separation of responsibilities and reuse across services and applications.
+* Introduced and promoted improved Conan dependency-management practices and combined CMake and Conan to package and consume reusable internal components consistently.
 
-    * Contract Type: Full-time.
-    * Role: Versatile Software Developer, but mainly in Embedded Systems.
-    * Main used technologies: Golang, C, Javascript, LibOpenCM3, Protobuf.
+**Technologies:** C++, FIX, CMake, Conan, Kafka, Kubernetes, Python, Bamboo, Bitbucket, Qt Creator
 
-**07/2015‐10/2019**
-:   *DebMedia&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Buenos Aires, Argentina*
+### Musala Soft
 
-    **Debmedia** has a B2B software solution for enterprises to manage Customer
-    Experience in the brick and mortar, focusing on optimizing queues and waits
-    , personalizing every touchpoint and providing actionable branch metrics.
+**Senior Software Engineer** · Dec 2020 – May 2022
+Full-time · Sofia, Bulgaria
 
-    * Contract Type: Contract.
-    * Role: Full-stack Web Developer.
-    * Main used technologies: Java, Playframework, AngularJS, MySQL, SQLServer.
+Worked on client engagements for Financial Times and Deutsche Telekom as part of Musala Soft's software engineering teams.
 
-**03/2014‐07/2015**
-:   *Brush Studio&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
+#### Financial Times
 
-    Mobile entertainment platform company, mobile game development and publishing.
+**Client Engagement** · Jul 2021 – May 2022
+Sofia, Bulgaria · Client based in London, UK
 
-    * Contract Type: Entrepreneurship.
-    * Role: Mobile Video Game Developer.
-    * Main used technologies: C++, cocos2d-x, Make.
+* Joined the project with a specific focus on modernizing the search and indexing platform, upgrading Elasticsearch across several major versions.
+* Reworked Elasticsearch index definitions and mappings to accommodate changes between versions and evolving data requirements.
+* Implemented data transformation and migration work required to move existing indexed content to the new Elasticsearch architecture.
+* Updated and maintained Go and Java services integrating with the search and indexing platform as part of the migration.
+* Worked on Kafka-based metadata ingestion pipelines responsible for propagating content metadata through the wider platform.
 
-**09/2010‐09/2018**
-:   *Industrial Computer Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
+**Technologies:** Elasticsearch, Go, Java, Kafka, Kubernetes, microservices
 
-    **The Industrial Computing Center** develops products and computer services of
-    industrial automation, with a high added value, that also meet the needs and
-    expectations of customers, enhancing specialized training and research.
+#### Deutsche Telekom | QIVICON
 
-    * Contract Type: Full-time.
-    * Role: Embedded Systems Software Developer, SCADA Software Developer.
-    * Main used technologies: C, C++, Qt, QML, CMake, Autotools, AVR, ARM,
-    STM32, Java, Spring, PostgreSQL.
+**Client Engagement** · Jan 2021 – Jun 2021
+Remote from Sofia, Bulgaria · Client based in Germany
 
-**09/2009‐06/2010**
-:   *FILPACON&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Havana, Cuba*
+* Developed and maintained integrations for smart-home devices from multiple manufacturers within an OSGi-based home-automation gateway platform.
+* Implemented Java/OSGi components responsible for integrating devices with the gateway and exposing their capabilities through the wider smart-home platform.
+* Worked with a large and heterogeneous set of device integrations, investigating compatibility issues across different manufacturers, device models, and communication behaviors.
+* Worked extensively with automated integration and regression tests used to validate device behavior and prevent changes in one integration from affecting others.
 
-    Filtering System for Internet, allow it to adequate to changeable
-    environments. This project help to contribute to a safer Internet for those
-    sectors of society most vulnerable to inappropriate content.
+**Technologies:** Java, OSGi, Git, GitLab, GitLab CI, smart-home and IoT device integration
 
-    * Contract Type: Internship.
-    * Role: Junior Software Developer, first work experience.
-    * Main used technologies: Java, SVN, Netbeans.
+### Skycoin
 
+**Embedded & Systems Software Engineer** · Oct 2018 – Nov 2020
+Full-time · Remote from Havana, Cuba · Company based in Shanghai, China
 
-Skills
-------
+* Developed firmware for a hardware wallet used to securely sign cryptocurrency transactions, working primarily in C on embedded hardware.
+* Implemented supporting client libraries in Go and JavaScript for communicating with the hardware wallet and integrating signing functionality into higher-level applications.
+* Built unit and end-to-end test coverage across firmware and client libraries, including tests against the hardware-wallet emulator to validate complete transaction-signing workflows.
+* Developed Prometheus exporters for blockchain network nodes, exposing operational metrics for monitoring and observability.
+* Investigated and resolved issues spanning embedded firmware, communication protocols, client libraries, emulation, and application integration.
 
-Advanced Knowledge
-:   *Programming languages:*
+**Technologies:** C, Go, JavaScript, libopencm3, Protocol Buffers, Prometheus, embedded systems, hardware wallets
 
-    **C**, **C++** (03, 11, 14 with: stl, boost, poco, gtk, qt (4, 5) + **qml**,
-    gtest (gmock), qwt, cocos2d‐x, box2d, ROS (very basic), OpenGL (very basic),
-    OpenCV (basic)), **Go**, **Java** (Desktop, web (Playframework, Spring ‐> RESTful APIs, OpenHab),
-    ORM (Hibernate, Ebeans), Android).
+### DebMedia
 
-:   *Build concepts:*
+**Full-Stack Software Developer** · Jul 2015 – Oct 2019
+Part-time Contract · Remote from Havana, Cuba · Company based in Buenos Aires, Argentina
 
-     Advanced compile concepts, including cross platform build, cross architecture
-     build and both.
+* Developed and maintained features across a B2B customer-experience platform used to manage customer flows, queues, service interactions, and branch operations.
+* Implemented backend functionality in Java using Play Framework and Ebean ORM, and frontend features with AngularJS.
+* Improved automated test coverage by implementing unit tests and selected integration tests, helping increase system stability and reduce regression issues as the product evolved.
 
-:   *Operating System concepts and practice:*
+**Technologies:** Java, Play Framework, Ebean ORM, AngularJS, MySQL, SQL Server, Git, GitLab, GitLab CI
 
-     **Embedded GNU/Linux, software development on GNU/Linux, Linux IPC** (Pipe,
-     Shared Memory, Message Queues, Semaphores).
+### Industrial Computer Center
 
-:    *Networks/Protocols:*
+**Software Engineer | SCADA & Industrial Integration** · Sep 2016 – Sep 2018
+Full-time · Havana, Cuba
 
-     Application (Modbus, D‐Bus).
+* Developed and maintained SCADA software for industrial automation projects in the petroleum industry, with a strong focus on C++, Boost, Qt, distributed communication, and industrial device integration.
+* Implemented and maintained SCADA communication drivers for integrating industrial equipment and controllers through multiple industrial protocols.
+* Worked with ZeroC Ice/IceStorm and ZeroMQ for distributed communication, publish/subscribe messaging, and communication between SCADA system components.
+* Later joined a process-integration team developing applications that connected operational and SCADA data with higher-level business workflows, combining industrial process automation with ERP-like functionality.
+* Took on increasing technical responsibility within the team, helping guide implementation decisions, coordinate development work, and support other engineers.
 
-:    *Abilities:*
+**Technologies:** C++, Boost, Qt, QML, ZeroC Ice, IceStorm, ZeroMQ, Java, Spring Boot, AngularJS, PostgreSQL, Linux, SCADA, industrial communication protocols
 
-     Structured Programming, Object Oriented Programming, Generic Programming,
-     use of metrics for code writing (I prefer document the source code using
-     Doxygen style).
+**Embedded & Systems Software Engineer** · Sep 2010 – Aug 2016
+Part-time / R&D · Havana, Cuba
 
-:    *Good practices:*
+* Developed embedded, systems, and desktop software for industrial automation, home automation, and R&D projects, working across low-level C/C++, Java, Qt/QML, Linux, and custom hardware platforms.
+* Worked with AVR, ARM, and STM32-based devices, including low-level hardware interaction and Linux-based systems running on custom ARM boards.
+* Patched and adapted the Linux kernel for custom ARM hardware and supported the surrounding development and runtime environments.
+* Implemented and integrated multiple industrial communication protocols and designed custom protocols when existing standards did not fit project requirements.
+* Improved the team's engineering workflow by introducing Jenkins-based continuous integration, supporting the migration from SVN to Git, and maintaining build infrastructure based on CMake, Autotools, and `icecc` distributed compilation.
 
-     Proactively and constructively makes suggestions for process or product
-     improvement. I am able to work both autonomously and in a collaborative
-     environment.
+**Technologies:** C, C++, Java, Qt, QML, Linux, Embedded Linux, AVR, ARM, STM32, CMake, Autotools, Jenkins, Git, SVN, icecc, industrial communication protocols
 
-Intermediate Knowledge
-:   *Programming languages:*
+### Brush Studio
 
-    **JavaScript** (AngularJS, Vue.js (Vuetify, Vuex)), **TypeScript** (Angular), **SQL**, **Bash**.
+**Mobile Game Developer** · Mar 2014 – Jul 2015
+Entrepreneurial / Part-time · Havana, Cuba
 
-:   *Embedded Systems:* 
+* Developed mobile games in C++ using Cocos2d-x and Box2D, primarily targeting Android devices, with additional support for BlackBerry platforms.
+* Developed an asset-processing tool that generated sprite sheets from sets of source images for use by the games at runtime.
 
-    FreeRTOS, STM32‐Library, lwIP, LibOpenCM3.
+**Technologies:** C++, Cocos2d-x, Box2D, Make, Android, BlackBerry
 
-:   *Networks/Protocols:*
+### FILPACON
 
-    Ethernet (TCP/IP, UDP), Serial (RS‐232/485), Application (gRPC, FIX).
+**Software Developer Intern** · Sep 2009 – Jun 2010
+Internship · Havana, Cuba
 
-:   *Abilities:*
+* Supported the development and maintenance of a web access management system through investigation tasks, test implementation, and well-defined development tickets.
+* Implemented small Java changes and fixes under guidance, gaining practical experience with an existing production codebase and structured software development workflows.
 
-    Concurrent programming (thread and/or task based concurrency), Template 
-    Meta‐programming, Algorithms, Machine Learning, Automated Software Testing 
-    (unit/integration tests).
+**Technologies:** Java, SVN, NetBeans
 
-Basic Knowledge
-:   *Programming languages:*
+## Technical Skills
 
-    **Php** (Symfony), **Python** (Django, Flask, Numpy, Pandas, Matplotlib,
-    Keras/TensorFlow), **Ruby, Javascript** (Node.js, Backbone.js, jQuery, Mobil
-    (Cordova/Phonegap, Ionic)), **Prolog**, **Io** (the programming language),
-    **MATLAB**.
+**Programming Languages:** C, C++, Go, Java · Python, TypeScript, JavaScript, SQL, Bash · PHP, Ruby, Prolog, Io, MATLAB
 
-:   *Other languages:*
+**C++ & Native Development:** STL, Boost, Qt 4/5, QML, C++03/11/14/17, templates and generic programming · Poco, GTK, Qwt, template metaprogramming
 
-    protobuf, json, xml, plist, html5, ccs3 (+stylus), markdown, LaTeX.
+**Java / JVM:** Java SE, Spring, Spring Boot · OSGi, Play Framework, Android Java development, Java desktop applications · Tomcat
 
-:   *Networks/Protocols:*
+**Go:** Backend and service development, REST services, systems/tooling development, goroutines, synchronization primitives
 
-    Application (Mqtt, rpc (+rpcgen), xmlrpc, SOAP), BLE (+Eddystone), CAN.
+**Python:** Scripting, automation, Flask · Django, NumPy, Pandas, Matplotlib
 
-:   *Abilities:*
+**Web & Frontend:** Angular, AngularJS, HTML5, CSS3 · Vue.js, Vuetify, Vuex, React, Node.js · Backbone.js, jQuery, Cordova/PhoneGap, Ionic, Stylus
 
-    Aspect Oriented Programming, Computer Vision, Blockchain.
+**Interoperability:** SWIG, JNI · SIP, Boost.Python
 
+**Distributed Systems & Messaging:** Microservices, publish/subscribe messaging, Apache Kafka, RabbitMQ, ZeroMQ · ZeroC Ice, IceStorm
 
-Toolbox
--------
+**Protocols & Interfaces:** FIX, REST/HTTP APIs, gRPC, Ethernet, TCP/IP, UDP, Modbus, RS-232, RS-485, D-Bus, custom binary/application protocols, industrial communication protocols · MQTT, CAN, BLE, Eddystone, XML-RPC, SOAP, Sun RPC/`rpcgen`, ETI
 
-Advanced Knowledge
-:   *Build and development tools:*
+**Serialization & Data Formats:** Protocol Buffers, JSON, XML
 
-    **CMake** (CPack, CTest, CDash), **GNU autotools** (autoscan, autoheader,
-    autoconf, automake, libtool, autoproject, intltool[gettext]), **BuildRoot,
-    Git**.
+**Platform & Cloud Native:** Kubernetes, Helm, Docker, Docker Compose, AWS, Ansible, Terraform, Kubespray, Elasticsearch on Kubernetes/ECK · Harbor, Rancher, GCP/GKE
 
-Intermediate Knowledge
-:   *Build and development tools:*
+**Build & Dependency Management:** Gradle, CMake, GNU Autotools, Make, Conan, Maven, CTest, CPack, CDash, Buildroot, Android SDK/NDK, Gradle dependency management, BOM-based dependency alignment, artifact repositories and publishing, Debian packaging · ACR, Ant, Ivy
 
-    gradle, valgrind, strace, gprof, gcov, fakeroot (debian packaging), Android‐SDK/NDK.
+**CI/CD & Delivery:** GitHub Actions, reusable workflows, organizational CI/CD standards, CI/CD architecture, build/test automation, CI security and hardening, standardized quality gates · Bamboo, Bamboo Specs, GitLab CI, Jenkins, Travis CI, CircleCI
 
-:   *Microservices/DevOps:*
+**Source Control:** Git, GitHub, GitLab, Bitbucket · SVN, CVS
 
-    RabbitMQ, Kafka, Elasticsearch +(ECK, EFK), Ansible, Terraform, Docker (+Docker Compose), Helm, Harbor (basic),
-    Prometheus +(Alermanager, Grafana), OpenTelemetry (basic), Kubernetes +(Rancher, Kubespray), AWS (basic),
-    GitLab, Jenkins, TravisCI, Bamboo, GitHub Actions, CircleCI (basic).
+**Databases, Search & Persistence:** PostgreSQL, MySQL, SQL Server, SQLite, MongoDB, Redis, Elasticsearch · Hibernate, Ebean ORM, GORM · Liquibase, Flyway · Neo4j, LevelDB
 
-:   *API script and/or bindings for C/C++:*
+**Observability:** Prometheus, Grafana, Alertmanager, EFK logging stacks, application/platform instrumentation · OpenTelemetry
 
-    swig, sip, boost::python, jni
+**Testing & Diagnostics:** Unit, integration, end-to-end and regression testing; testable component design; protocol/integration testing; GoogleTest, GoogleMock, CTest, gcov · Valgrind, strace, gprof, GNU/Linux diagnostics, network/protocol troubleshooting, Wireshark
 
-:   *Microcontrollers and hardware tools:*
+**Embedded & Systems Engineering:** Embedded C/C++, Embedded GNU/Linux, ARM, STM32, AVR, FreeRTOS, STM32 Standard Peripheral Library, libopencm3, lwIP, OpenOCD, ST-Link, JTAG · Linux IPC, process/thread troubleshooting · dsPIC30F3013, AVR ATmega8/ATmega16, Proteus, AVR Studio, CCS C Compiler
 
-    Proteus, CCS (C Compiler of Custom Computer Services Incorporated), AVR
-    Studio.
+**Software Architecture:** Software architecture and modularization, reusable component design, API and library design, distributed-system design, event-driven architecture, microservices architecture, concurrent programming, algorithms and data structures
 
-:   *Relational databases:*
+**Documentation:** Markdown, Doxygen, documentation-as-code, automated publishing, generated API/reference documentation · LaTeX/ConTeXt, Pandoc
 
-    PostgreSQL, MySQL, SQlServer, SQLite3. +Liquibase
+**Domain Experience:** Platform engineering and developer enablement; developer self-service; shared build and CI/CD infrastructure; GitOps; software supply-chain and artifact security · SCADA, HMI, industrial automation and device integration · electronic trading systems, order processing and financial-market connectivity · blockchain and hardware-wallet systems
 
-:   *Schemaless databases:*
+**Additional Technical Areas:** Machine-learning concepts, neural networks, collaborative filtering, Keras, TensorFlow · OpenCV · cocos2d-x, Box2D, OpenGL · ROS
 
-    Mongo, Redis.
+## Open Source & Technical Portfolio
 
-Basic Knowledge
-:   *Build and development tools:*
+A detailed, evidence-backed record of public contributions and personal technical work is maintained separately from this application CV.
 
-    wireshark, svn, cvs, tomcat, maven, ant, ivy, acr.
+**Open Source Contributions:** [View full contribution history and representative pull requests](https://denisacostaq.github.io/resume/#open-source-contributions)
 
-:   *Microcontrollers development tools:*
+Includes work across industrial communications and compiler development, embedded tooling, Prometheus exporters, cryptocurrency systems, C interoperability and language bindings, hardware-wallet systems, and public Financial Times repositories.
 
-    PIC (30F3013), AVR (Atmega8 and Atmega16), ARM (stm3210fx*), openocd, st‐link.
+**Personal Technical Projects:** [View full technical project portfolio](https://denisacostaq.github.io/resume/#personal-technical-projects)
 
-:   *Schemaless databases:*
+Includes cross-platform C++/Qt systems, STM32/FreeRTOS firmware, industrial-protocol libraries, developer tooling and build systems, Go backend projects, parsing/interpreter work, and cross-platform game development.
 
-    Neo4j, LevelDB.
+Additional historical professional contributions in the Skycoin ecosystem are available under the [`stdevAlDen`](https://github.com/stdevAlDen) GitHub account.
 
+## Certifications
 
-Extra Experience
-----------------
+* **CKAD: Certified Kubernetes Application Developer**
+* **HashiCorp Certified: Terraform Associate**
 
-Personal projects
-:   *[DAQs (Data Acquisition System)](https://github.com/denisacostaq/DAQs)* is
-    a basic proof of concept project for evaluating the possibility to create
-    portable (Desktop + Android) applications by using Qt technologies. From
-    this project you can learn how to use some cool stuff like, travis CI
-    pipelines, cross-compiling C++/Qt projects to Android/ARM based mobiles,
-    github badges, code coverage report, documentation generation using Doxygen
-    and so on.
+**Selected continuing education:** cloud software architecture patterns; microservices and event-driven architecture; large-scale system design; GitHub Actions; observability with Prometheus and Grafana; Helm; GitOps with Argo CD; Ansible.
 
-    *[Todo list](https://github.com/denisacostaq/todolist-go)* is a basic demo
-    to demonstrate how to use the golang
-    [revel](https://revel.github.io/manual/index.html) framework for creating a
-    RESTFull full-stack web application using AngularJS for the frontend and gorm
-    as ORM library.
+## Education
 
-    *[clang-format-binary-releases](https://github.com/denisacostaq/clang-format-binary-releases)*
-    is a ready to use binary executable for GNU/Linux and MacOS operating systems
-    of the [Clang Format](https://clang.llvm.org/docs/ClangFormat.html) project.
+**BSc, Informatics Sciences Engineering** · 2009–2016
+Universidad de las Ciencias Informáticas · Havana, Cuba
+*Thesis: Binary Serialization Mechanism*
 
-    *[stm3210fx3](https://github.com/denisacostaq/firmware-stm3210fx3)* an
-    autotools based template to work with stm3210fx3 microcontrollers using the
-    STM32F10x_StdPeriph and Free-RTOS libraries.
+## Additional Academic Coursework
 
-    *[SavingLasVegas](https://github.com/denisacostaq/SavingLasVegas)* a
-    C++/cocos2d-x based video game for mobile devices (Android).
+Artificial Neural Networks · Pattern Recognition · Network Interconnection · TCP/IP and Applications · Service-Oriented Architecture · Data Structures and Algorithms · Control Systems Oriented Programming · GNU/Linux
 
+## Interests
 
-Open Source
-:   *[Embedded IDE](http://martinribelotta.github.io/embedded-ide)* is a 
-    Makefile based integrated development environment primary think for bare
-    processor development. This IDE, can be used for programming the
-    [CIAA platform](http://www.proyecto-ciaa.com.ar/index_quees_en.html).
+**Professional:** Open source, software engineering and design, design patterns, control systems, neural networks, fuzzy logic, SCADA systems
 
-    *[Qt CLI installer](https://github.com/denisacostaq/qli-installer)* is a
-    simple script replacing the official online-only graphical Qt installer.
-    It can automatically download prebuilt Qt binaries for any target (you're
-    not bound to Linux binaries on Linux; you could also download iOS binaries).
-
-    *[openHAB Add-ons](https://github.com/denisacostaq/openhab-addons)* is the
-    official set of add-ons that are implemented on top of openHAB Core APIs.
-
-    *[arduino-cmake](https://github.com/denisacostaq/arduino-cmake/tree/develop)*
-    The Arduino CMake build system integrates tightly with the Arduino SDK. So
-    if you like to do things from the command line (using make), or to build
-    you're firmware where you're in control, or if you would like to use an IDE
-    such as Eclipse, KDevelop, XCode, CodeBlocks or something similar, then
-    Arduino CMake is the system for you.
-
-    *[hardware-wallet](https://github.com/skycoin/hardware-wallet/commits?author=stdevAlDen)*
-    is a physical hardware wallet for signing skycoin transactions and messages,
-    it have a client library ([hardware-wallet-go](https://github.com/skycoin/hardware-wallet-go/commits?author=stdevAlDen))
-    for device communication making use of protocol buffer ([hardware-wallet-protob](https://github.com/skycoin/hardware-wallet-protob/commits?author=stdevAlDen))
-    messages. Additionally there is a tool ([Random Number Generator (RNG) tests](https://github.com/denisacostaq/rng-test/commits/feature/update_after_libopencm3_changes))
-    for validating the cryptographic API.
-
-
-Interests
----------
-
-Professional
-:   open source, software development, software design (design patterns),
-    control, neural network, fuzzy logic, SCADAs.
-
-Personal
-:   water polo, travel, gym, dancing.
-
-
-Last version
-------------
-
-----------------------------                                   ------------------------------
-[online version](https://denisacostaq.github.io/resume)              [other formats](https://github.com/denisacostaq/resume/releases/latest)
-----------------------------                                   ------------------------------
+**Personal:** Water polo, travel, gym / fitness, dancing
