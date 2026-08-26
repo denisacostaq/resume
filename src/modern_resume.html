@@ -142,6 +142,13 @@
 
         <div class="header-rule"></div>
 
+        $if(toc)$
+        <nav class="resume-toc" aria-label="Table of contents">
+            <div class="resume-toc-title">Contents</div>
+            $table-of-contents$
+        </nav>
+        $endif$
+
         <article class="resume-content">
             $body$
         </article>
