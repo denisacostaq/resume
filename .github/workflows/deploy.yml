@@ -48,7 +48,7 @@ jobs:
       - name: Build html version
         shell: bash
         run: |
-          cmake -S . -B build -DUSE_TECHNICAL_DETAILED=ON
+          cmake -S . -B build -DBUILD_DETAILED_VARIANT=ON
           cmake --build build --target html
 
       - name: Upload build output
